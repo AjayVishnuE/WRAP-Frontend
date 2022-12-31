@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(b.urlencoded({extended:true}));
 mongoose.set('strictQuery',true);
 var copy=0;
-mongoose.connect("mongodb://0.0.0.0:27017/Wrap",{useNewUrlParser:true,useUnifiedTopology:true},(err,result)=>{
+mongoose.connect("mongodb+srv://Ferno:123@cluster0.wqriud4.mongodb.net/Wrap",{useNewUrlParser:true,useUnifiedTopology:true},(err,result)=>{
     if(err)
     {
         throw err;
