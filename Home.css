@@ -11,13 +11,10 @@
 
   
   section {
-      position: absolute;
-      height: 100vh;
       width: 0;
       opacity: 0;
       transition: all ease-in .1s;
       display: flex;
-      align-items: center;
   } 
 
   #first{
@@ -27,9 +24,7 @@
   /* Styles applied on trigger */
   section:target {
       opacity: 1;
-      position: absolute;
       left: 0;
-      height: 100%;
       z-index: 10;
   }
   
