@@ -4,210 +4,200 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WRAP</title>
     <script src="https://cdn.tailwindcss.com"></script>
-	<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer></script>
 	<link href="./Home.css" rel="stylesheet"/>
+	<script defer src="calender1.js"></script>
 	<script defer src=" Home.js"></script>
+	<link rel="icon" href="./logo-images/favicon.ico">
+	<link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
+	<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer></script>
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5846616521312298" crossorigin="anonymous"></script>
 </head>
 <body>
-	<div id="div1" class="div1 flex flex-col items-center w-[15%] pt-2 h-full overflow-hidden text-gray-400 bg-white ml-0 z-10 fixed">
-		<a class="flex items-center justify-center w-full py-4" href="">
-			<img class="w-full h-126 mx-12 mb-4" src="./logo-images/WRAP-yellow-logo.svg"  alt="logo">
+	<div id="div1" class="div1 flex flex-col items-center w-[13%] pt-0 h-full overflow-hidden text-gray-400 bg-white ml-0 z-10 fixed">
+		<a class="flex items-center justify-center py-3" href="">
+			<img class=" w-28 mb-4" src="./logo-images/WRAP-yellow-logo.svg"  alt="logo">
 		</a>
-		<a class="flex items-center w-[176px] h-12 mb-2 hover:text-white hover:bg-[#FFCB0A] rounded-xl " href="#Dashboard">
-			<div class=" flex items-center px-8 py-4 gap-4">
-				<img class="w-6 h-6" src="./logo-images/Dashboard-nav.svg">
+		<a class="flex items-center w-[150px] h-12 mb-2 hover:text-white hover:bg-[#FFCB0A] rounded-xl " href="#Dashboard">
+			<div class=" flex py-4 pl-5 gap-2">
+				<img class="w-5 h-5" src="./logo-images/Dashboard-nav.svg">
 				<span class="text-md font-medium">Dasboard</span>
 			</div>
 		</a>
-		<a class="flex items-center w-[176px] h-12 mb-2 hover:text-white hover:bg-[#FFCB0A] rounded-xl" href="#Booking">
-			<div class=" flex px-8 py-4 gap-4">
+		<a class="flex items-center w-[150px] h-12 mb-2 hover:text-white hover:bg-[#FFCB0A] rounded-xl" href="#Booking">
+			<div class=" flex py-4 pl-4 gap-2">
 				<img class="w-6 h-6" src="./logo-images/Booking-nav.svg">
 				<span class="text-md font-medium">Bookings</span>
 			</div>
 		</a>
-		<a class="flex items-center w-[176px] h-12 mb-2 hover:text-white hover:bg-[#FFCB0A] rounded-xl" href="#Rewards">
-			<div class=" flex px-8 py-4 gap-4">
+		<a class="flex items-center w-[150px] h-12 mb-2 hover:text-white hover:bg-[#FFCB0A] rounded-xl" href="#Rewards">
+			<div class=" flex py-4 pl-4 gap-2">
 				<img class="w-6 h-6" src="./logo-images/Rewards-nav.svg">
 				<span class="text-md font-medium">Rewards</span>
 			</div>
 		</a>
-		<a class="flex items-center w-[176px] h-12 mb-2 hover:text-white hover:bg-[#FFCB0A] rounded-xl" href="#News">
-			<div class=" flex px-8 py-4 gap-4">
+		<a class="flex items-center w-[150px] h-12 mb-2 hover:text-white hover:bg-[#FFCB0A] rounded-xl" href="#News">
+			<div class=" flex py-4 pl-4 gap-2">
 				<img class="w-6 h-6" src="./logo-images/News-nav.svg">
 				<span class="text-md font-medium">News</span>
 			</div>
 		</a>
-		<a class="flex items-center w-[176px] h-12 mb-2 hover:text-white hover:bg-[#FFCB0A] rounded-xl" href="#Redeem">
-			<div class="flex px-8 py-4 gap-4">
+		<a class="flex items-center w-[150px] h-12 mb-2 hover:text-white hover:bg-[#FFCB0A] rounded-xl" href="#Redeem">
+			<div class="flex py-4 pl-4 gap-2">
 				<img class="w-6 h-6" src="./logo-images/Redeem-nav.svg">
 				<span class="text-md font-medium">Redeem</span>
 			</div>
 		</a>
-		<a class="flex items-center w-[176px] h-12 mb-2 hover:text-white hover:bg-[#FFCB0A] absolute bottom-52 rounded-xl" href="#Notifications">
-			<div class=" flex px-8 py-4 gap-4">
+		<a class="flex items-center w-[150px] h-12 mb-2 hover:text-white hover:bg-[#FFCB0A] absolute bottom-52 rounded-xl" href="#Notifications">
+			<div class=" flex py-4 pl-4 gap-2">
 				<img class="w-6 h-6" src="./logo-images/Notification-nav.svg">
 				<span class="text-md font-medium">Notification</span>
 			</div>
 		</a>
-		<a class="flex items-center w-[176px] h-12 mb-2 hover:text-white hover:bg-[#FFCB0A] absolute bottom-36 rounded-xl" href="#Support">
-			<div class=" flex px-8 py-4 gap-4">
+		<a class="flex items-center w-[150px] h-12 mb-2 hover:text-white hover:bg-[#FFCB0A] absolute bottom-36 rounded-xl" href="#Support">
+			<div class=" flex py-4 pl-4 gap-2">
 				<img class="w-6 h-6" src="./logo-images/Support-nav.svg">
 				<span class="text-md font-medium">Support</span>
 			</div>
 		</a>
-		<a class=" flex items-center w-[176px] h-12 mb-2 hover:text-white hover:bg-[#FFCB0A] absolute bottom-20 rounded-xl" href="#Settings">
-			<div class=" flex px-8 py-4 gap-4">
+		<a class=" flex items-center w-[150px] h-12 mb-2 hover:text-white hover:bg-[#FFCB0A] absolute bottom-20 rounded-xl" href="#Settings">
+			<div class=" flex py-4 pl-4 gap-2">
 				<img class="w-6 h-6" src="./logo-images/Settings.svg">
 				<span class="text-md font-medium">Settings</span>
 			</div>
 		</a>
-		<a class="flex items-center w-[176px] h-12 mb-2 hover:text-[#E45A5A] hover:bg-[#ffa8a8] absolute bottom-4 rounded-xl" href="#logout">
-			<div class=" flex px-8 py-4 gap-4">
+		<a class="flex items-center w-[150px] h-12 mb-2 hover:text-[#E45A5A] hover:bg-[#ffa8a8] absolute bottom-4 rounded-xl" href="#logout">
+			<div class=" flex py-4 pl-4 gap-2">
 				<img class="w-6 h-6 " src="./logo-images/Logout-nav.svg">
 				<span class="text-md font-medium">Logout</span>
 			</div>
 		</a>
 	</div>
-	<div class="div2 flex flex-col flex-wrap w-[85%] h-[100vh] fixed bg-gray-50 ml-[15%] items-center justify-center gap-4" >
-		<img src="./logo-images/Home-img.svg">
+	<div class="header1 flex justify-between items-center w-[87%] h-[10%] bg-white fixed ml-[13%] mt-0 px-12 overflow-y-auto">
+		<div class="Home w-60 h-[6%]">
+			<h1 class="text-4xl font-bold"></h1>
+		</div>
+		<div class="flex justify-center items-center h-[6%] my-2 ml-0">
+			<input type="search" class="bg-purple-white relative w-96 shadow p-3 rounded-lg" placeholder="Search">
+			<div class="relative mr-4 right-8 text-black">
+				<img src="./logo-images/search-icon.png">
+			</div>
+			<div class="">
+				<a href="#Track" ><img class="w-12 h-12"  src="./logo-images/Location-icon.svg"></a>
+			</div>
+		</div>
+		<a class="flex gap-3 mt-0 mr-12"  href="#Profile">
+			<img class="rounded-[50%] h-12 w-12  bg-gray-100" src="./logo-images/ajay_profile.png"/>
+			<div class="flex flex-col ">
+				<h1 class="font-medium">User_7338</h1>
+				<p class="text-sm">@userid121</p>
+			</div>
+		</a>
+	</div>
+	<div class="flex flex-col flex-wrap items-center fixed bg-gray-50  w-[87%] h-[110%] ml-[13%] mt-[5.25%] gap-4  " >
+		<img class="mt-16" src="./logo-images/Home-img.svg">
 		<a href="">
 			<img src="./logo-images/Play Store.svg"/>
 		</a>
 	</div>
 	
 	<div class= 'all-pages'> 
-		<section id= 'Dashboard' class="div2 flex flex-col flex-wrap w-[85%] h-[100vh] fixed bg-gray-50 ml-[15%] items-center gap-4" >
-				<div class="header-section flex mb-12 flex-wrap mt-4">
-					<div class="dashboard">
-						<h1 class="text-4xl font-bold mt-5 ">Dashboard</h1>
-					</div>
-					<div class="  flex justify-center items-center mr-6 h-8 my-2 ml-14 mt-6">
-						<input type="search" class="bg-purple-white relative w-96 shadow p-3 rounded-lg" placeholder="Search">
-						<div class="relative mr-4 right-14 text-black">
-							<img src="./logo-images/search-icon.png">
-						</div>
-						<div class="">
-							<a href="" ><img class=" ml-0 h-12 w-12"  src="./logo-images/location-icon.svg"></a>
-						</div>
-					</div>
-					<a href="#Profile">
-						<div class="flex gap-3 mt-4 ml-8" >
-							<img class="rounded-[50%] h-12 w-12 " src="./logo-images/ajay_profile.jpg">
-							<div class="flex flex-col ">
-								<h1 class="font-medium">Ajay Vishnu</h1>
-								<p class="text-sm">@ajayvishnue</p>
-							</div>
-						</div>
-					</a>
+		<section id= 'Dashboard' class=" flex flex-col w-[87%] fixed h-[90%] bg-gray-50 ml-[13%] mt-[5%] gap-4 overflow-x-auto" >
+				<div class="Page-Title flex">
+					<h1 class="text-4xl font-bold pl-24 -mt-[3.5%] fixed">Dashboard</h1>
 				</div>
-				<div class=" justify-center flex flex-wrap md:gap-4">
-					<div class="h-72 flex flex-col w-72 bg-[#009743] rounded-3xl shadow-lg">
-						<h1 class="text-2xl font-medium ml-6 mt-16 text-white">Schedule a<br>pickup</h1>
+				<div class=" justify-center flex flex-wrap md:gap-4 mt-4">
+					<div class="h-72 flex flex-col w-80 bg-[#009743] rounded-3xl shadow-lg">
+						<h1 class="text-2xl font-medium ml-6 mt-12 text-white">Schedule a<br>pickup</h1>
 						<a href="#Schedule">
-							<div class="ml-56 mt-24">
+							<div class="ml-60 mt-24">
 								<img src="logo-images/Arrow-white.svg" />
 							</div>
 						</a>
 					</div>
-					<div class="h-72 w-72 bg-white rounded-3xl shadow-lg">
-						<h1 class="text-2xl font-medium ml-6 mt-16">Drop off at a<br>Collection point</h1>
+					<div class="h-72 w-80 bg-white rounded-3xl shadow-lg">
+						<h1 class="text-2xl font-medium ml-6 mt-12">Drop off at a<br>Collection point</h1>
 						<a href="#Dropoff">
-							<div class="ml-56 mt-24">
+							<div class="ml-60 mt-24">
 								<img src="logo-images/Arrow-black.svg" />
 							</div>
 						</a>
 					</div>
-					<div class="h-72 w-96 bg-white rounded-3xl shadow-lg">
-						<div class="flex ml-4">
+					<div class="h-72 w-[492px] bg-white rounded-3xl shadow-lg">
+						<div class="flex ml-6 mt-4">
 							<img src="./logo-images/Graph-icon-dashboard.svg"/>
-							<h1 class="text-2xl font-medium mt-6 mb-6">Total Recycled</h1>
+							<h1 class="text-2xl font-medium mt-6 mb-4 ml-2">Total Recycled</h1>
 						</div>
-						<div class="year-stats flex flex-col max-h-[176px] gap-4 mx-4">
-							<img src="./logo-images/graph.svg"/>
-							<h1 class="text-2xl mt-4 font-medium">1.02 Tons</h1>
+						<div class="year-stats flex flex-col max-h-[100px] mb-0 ml-6">
+							<div class="mt-8">
+								<svg class="relative w-full h-[50px]">
+									<polyline points="9,46 50,12 90,23, 130,11 171,38, 211,48, 251,100,250"></polyline>    
+								</svg>
+							</div>
+							<h1 class="text-2xl mt-12 font-medium ml-2">1.02 Tons</h1>
 						</div>
 					</div>
 				</div>
 				<div class="h-[300px] flex justify-center items-center flex-wrap gap-4">
-					<div class="h-[280px] w-[650px] bg-white rounded-3xl shadow-lg justify-center items-center">
-						<h1 class="pl-16 pt-6 text-2xl font-semibold">Purchase a WRAP bin</h1>
-						<div class="flex flex-row flex-wrap justify-center items-center mt-12 gap-24">
-							<div class="flex flex-col justify-center items-center">
-								<img class="h-[49px] w-[49px] mb-4" src="logo-images/Trash-green.svg"/>
-								<h2>Bio-Waste</h2>
-							</div>
-							<div  class="flex flex-col justify-center items-center">
-								<img class="h-[49px] w-[49px] mb-4" src="logo-images/Trash-blue.svg"/>
-								<h2>Plastic-Waste</h2>
-							</div>
-							<div  class="flex flex-col justify-center items-center">
-								<img class="h-[49px] w-[49px] mb-4" src="logo-images/Trash-orange.svg"/>
-								<h2>Paper-Waste</h2>
+					<a href="#Order_Bin">
+						<div class="h-[280px] w-[750px] bg-white rounded-3xl shadow-lg justify-center items-center">
+							<h1 class="pl-12 pt-6 text-2xl font-medium">Purchase a WRAP bin</h1>
+							<div class="flex flex-row flex-wrap justify-center items-center mt-12 gap-24">
+								<div class="flex flex-col justify-center items-center">
+									<img class="h-[69px] w-[69px] mb-4" src="logo-images/Trash-green.svg"/>
+									<h2>Bio-Waste</h2>
+								</div>
+								<div  class="flex flex-col justify-center items-center">
+									<img class="h-[69px] w-[69px] mb-4" src="logo-images/Trash-blue.svg"/>
+									<h2>Plastic-Waste</h2>
+								</div>
+								<div  class="flex flex-col justify-center items-center">
+									<img class="h-[69px] w-[69px] mb-4" src="logo-images/Trash-orange.svg"/>
+									<h2>Paper-Waste</h2>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="h-[280px] w-[330px] bg-[#FFCB0A] rounded-3xl shadow-lg">
-						<div class="h-[200px] w-[250px] m-[40px] bg-white rounded-xl flex flex-col items-center justify-center">
-							<h1 class="text-xl font-semibold">Report a Dump</h1>
-							<img src="./logo-images/Report-a-dump.svg"/>
-						</div>
-						
+					</a>
+					<div class="h-[280px] w-[396px] bg-[#FFCB0A] rounded-3xl shadow-lg flex items-center justify-center">
+						<a href="#Report">
+							<div class="h-[210px] w-[320px] m-[40px] bg-white rounded-xl flex flex-col items-center justify-center gap-3">
+								<h1 class="text-xl font-semibold">Report a Dump</h1>
+								<img src="./logo-images/Report-a-dump.svg"/>
+							</div>
+						</a>
 					</div>
 				</div>
 		</section>
 		
-		<section id= 'Booking' class="flex flex-col w-[85%] h-full absolute ml-[15%] items-center bg-gray-50" >
-			<div class="header-section flex mb-12 flex-wrap mt-4">
-				<div class="Booking">
-					<h1 class="text-4xl font-bold mt-5 ">Booking</h1>
-				</div>
-				<div class="  flex justify-center items-center mr-6 h-8 my-2 ml-20 mt-6">
-					<input type="search" class="bg-purple-white relative w-96 shadow p-3 rounded-lg" placeholder="Search">
-					<div class="relative mr-4 right-14 text-black">
-						<img src="./logo-images/search-icon.png">
-					</div>
-					<div class="">
-						<a href="" ><img class="w-12 h-12"  src="./logo-images/location-icon.svg"></a>
-					</div>
-				</div>
-				<a href="#Profile">
-					<div class="flex gap-3 mt-4 ml-8" >
-						<img class="rounded-[50%] h-12 w-12 " src="./logo-images/ajay_profile.jpg">
-						<div class="flex flex-col ">
-							<h1 class="font-medium">Ajay Vishnu</h1>
-							<p class="text-sm">@ajayvishnue</p>
-						</div>
-					</div>
-				</a>
+		<section id= 'Booking' class="flex flex-col w-[87%] fixed h-[90%] bg-gray-50 ml-[13%] mt-[5%] gap-4 overflow-x-auto" >
+			<div class="Page-Title flex">
+				<h1 class="text-4xl font-bold pl-24 -mt-[3.5%] fixed">Booking</h1>
 			</div>
-			<div class="flex gap-4 ">
+			<div class="flex gap-4 ml-16 items-center justify-center mt-4">
 				<div class="flex flex-col gap-4">
-					<div class="h-60 w-96 bg-white rounded-3xl shadow-lg flex flex-col items-center justify-center pb-6">
+					<div class="h-64 w-[500px] bg-white rounded-3xl shadow-lg flex flex-col items-center justify-center pb-6">
 						<h1 class="my-6 text-xl font-semibold">Default pickup days</h1>
-						<div class="flex gap-4">
+						<div class="flex gap-20">
 							<div class="flex flex-col">
-								<h1 class="font-medium">Tuesday</h1>
-								<h1 class="font-medium">Thursday</h1>
-								<br>
-								<h1 class="font-medium">Second Saturdays</h1>
-								<h1 class="font-medium">First Monday</h1>
-								<h1 class="font-medium">Third Monday</h1>
+								<h1 class="text-md font-medium mb-1">Tuesday</h1>
+								<h1 class="text-md font-medium mb-4">Thursday</h1>
+								<h1 class="text-md font-medium mb-1">Second Saturdays</h1>
+								<h1 class="text-md font-medium mb-1">First Monday</h1>
+								<h1 class="text-md font-medium mb-1">Third Monday</h1>
 							</div>
 							<div>
-								<h1 class="font-medium text-green-500">Bio-waste</h1>
-								<h1 class="font-medium text-blue-500">Plastic</h1>
-								<br>
-								<h1 class="font-medium text-red-500">Glass</h1>
-								<h1 class="font-medium text-orange-500">Paper</h1>
-								<h1 class="font-medium text-orange-500">Cardboard</h1>
+								<h1 class="font-medium text-green-500 mb-1">Bio-waste</h1>
+								<h1 class="font-medium text-blue-500 mb-4 ">Plastic</h1>
+								<h1 class="font-medium text-red-500 mb-1">Glass</h1>
+								<h1 class="font-medium text-orange-500 mb-1">Paper</h1>
+								<h1 class="font-medium text-orange-500 mb-1">Cardboard</h1>
 							</div>
 						</div>
 					</div>
-					<div class="h-60 w-96 bg-white rounded-3xl shadow-lg ">
-						<h1 class="my-6 text-xl font-semibold text-center">Your next pickup</h1>
-						<div class="flex gap-6 justify-center">
+					<div class="h-48 w-[500px] bg-white rounded-3xl shadow-lg ">
+						<h1 class="my-4 text-xl font-semibold text-center">Your next pickup</h1>
+						<div class="flex gap-16 justify-center">
 							<div class="p-4">
 								<h1 class=" text-xl text-center">MON</h1>
 								<h1 class=" text-xl text-center">16</h1>
@@ -223,98 +213,80 @@
 						</div>
 					</div>
 				</div>
-				<div class="h-[494px] w-[400px] bg-white rounded-3xl shadow-lg ">
-					<h1 class="my-6 text-xl font-semibold text-center">Past bookings</h1>
-					<table class="w-[320px] table-auto mx-6">
+				<div class="h-[468px] w-[520px] bg-white rounded-3xl shadow-lg flex flex-col items-center justify-center">
+					<h1 class="my-2 text-xl font-semibold text-center">Past bookings</h1>
+					<table class="w-[500px] table-auto mx-6">
 						<thead>
 							<tr class="mr-auto ml-auto text-gray-600 text-lg leading-normal">
-								<th class="py-2 text-left w-[120px] text-center">Type</th>
-								<th class="py-2 text-left w-[120px] text-center">Date</th>
-								<th class="py-2 text-left w-[120px] text-center">status</th>
+								<th class="py-1  text-left pl-6">Type</th>
+								<th class="py-1 text-center">Pick Up Date</th>
+								<th class="py-1 text-center">status</th>
 							</tr>
 						</thead>
 						<tbody class="text-gray-600 text-lg font-lg ">
 							<tr class="border-b border-gray-200">
-								<td class="py-2 text-left pl-4 text-blue-500">Plastic</td>
-								<td class="py-2 text-left text-center">Nov 30</td>
-								<td class="py-2 text-left text-center">In transit</td> 
+								<td class="py-2  pl-6 text-blue-500">Plastic</td>
+								<td class="py-2  text-center">Nov 30</td>
+								<td class="py-2  text-center">Order In transit</td> 
 							</tr>
 							<tr class="border-b border-gray-200">
-								<td class="py-2 text-left pl-4 text-blue-500">Plastic</td>
-								<td class="py-2 text-left text-center">Nov 26</td>
-								<td class="py-2 text-left text-center">Cancelled </td> 
+								<td class="py-2  pl-6 text-blue-500">Plastic</td>
+								<td class="py-2  text-center">Nov 26</td>
+								<td class="py-2  text-center">Order Cancelled </td> 
 							</tr>
 							<tr class="border-b border-gray-200">
-								<td class="py-2 text-left pl-4 text-green-500">Bio waste</td>
-								<td class="py-2 text-left text-center">Nov 20</td>
-								<td class="py-2 text-left text-center">Green hub </td> 
+								<td class="py-2  pl-6 text-green-500">Bio waste</td>
+								<td class="py-2  text-center">Nov 20</td>
+								<td class="py-2  text-center">Reached Green hub </td> 
 							</tr>
 							<tr class="border-b border-gray-200">
-								<td class="py-2 text-left pl-4 text-green-500">Bio waste</td>
-								<td class="py-2 text-left text-center">Nov 10</td>
-								<td class="py-2 text-left text-center">Flex will LLC.</td> 
+								<td class="py-2  pl-6 text-green-500">Bio waste</td>
+								<td class="py-2  text-center">Nov 10</td>
+								<td class="py-2  text-center">Reached Flex will LLC.</td> 
 							</tr>
 							<tr class="border-b border-gray-200">
-								<td class="py-2 text-left pl-4 text-red-500">Glass</td>
-								<td class="py-2 text-left text-center">Oct 25 </td>
-								<td class="py-2 text-left text-center">Cravings In</td> 
+								<td class="py-2  pl-6 text-red-500">Glass</td>
+								<td class="py-2  text-center">Oct 25 </td>
+								<td class="py-2  text-center">Reached Cravings In</td> 
 							</tr>
 							<tr class="border-b border-gray-200">
-								<td class="py-2 text-left pl-4 text-red-500">Glass</td>
-								<td class="py-2 text-left text-center">Oct 15 </td>
-								<td class="py-2 text-left text-center">Flex will LLC.</td> 
+								<td class="py-2  pl-6 text-red-500">Glass</td>
+								<td class="py-2  text-center">Oct 15 </td>
+								<td class="py-2  text-center">Reached Flex will LLC.</td> 
 							</tr>
 							<tr class="border-b border-gray-200">
-								<td class="py-2 text-left pl-4 text-orange-500">Paper</td>
-								<td class="py-2 text-left text-center">Oct 5 </td>
-								<td class="py-2 text-left text-center">Cancelled</td> 
+								<td class="py-2  pl-6 text-orange-500">Paper</td>
+								<td class="py-2  text-center">Oct 5 </td>
+								<td class="py-2  text-center">Order Cancelled</td> 
 							</tr>
 							<tr class="border-b border-gray-200">
-								<td class="py-2 text-left pl-4 text-orange-500">Paper </td>
-								<td class="py-2 text-left text-center">Sep 25</td>
-								<td class="py-2 text-left text-center">Uniliver Ltd.</td> 
+								<td class="py-2  pl-6 text-orange-500">Paper </td>
+								<td class="py-2  text-center">Sep 25</td>
+								<td class="py-2  text-center">Reached Uniliver Ltd.</td> 
 							</tr>
 						</tbody>
 					</table>
 				</div>
 			</div>
-			<div class="w-[804px] h-32 bg-white rounded-3xl shadow-lg mt-4">
-				<h1 class="my-2 text-xl font-semibold text-center">your waste goes here</h1>
-				<div class="flex justify-center items-center">
-					<img src="./logo-images/Booking-logo-1.svg" alt="">
-					<img src="./logo-images/Booking-logo-2.svg" alt="">
-					<img class="ml-5" src="./logo-images/Booking-logo-3.svg" alt="">
-					<img src="./logo-images/Booking-logo-4.svg" alt="">
-					<img class="-ml-6" src="./logo-images/Booking-logo-5.svg" alt="">
+			<div class="flex items-center justify-center">
+				<div class="w-[1038px] h-36 bg-white rounded-3xl shadow-lg mt-4 ml-16 ">
+					<h1 class="mt-4 text-xl font-semibold text-center">your waste goes here</h1>
+					<div class="flex justify-center items-center gap-12">
+						<img src="./logo-images/Booking-logo-1.svg" alt="">
+						<img src="./logo-images/Booking-logo-2.svg" alt="">
+						<img class="ml-5" src="./logo-images/Booking-logo-3.svg" alt="">
+						<img src="./logo-images/Booking-logo-4.svg" alt="">
+						<img class="-ml-6" src="./logo-images/Booking-logo-5.svg" alt="">
+					</div>
 				</div>
 			</div>
 		</section>
 		
-		<section id= 'Rewards' class="flex flex-col w-[85%] h-full absolute bg-white ml-[15%] items-center bg-gray-50" >
-			<div class="header-section flex mb-4 flex-wrap overflow-hidden mt-4">
-				<div class="Rewards">
-					<h1 class="text-4xl font-bold mt-5 ">Rewards</h1>
-				</div>
-				<div class="  flex justify-center items-center mr-6 h-8 my-2 ml-28 mt-6">
-					<input type="search" class="bg-purple-white relative w-96 shadow p-3 rounded-lg" placeholder="Search">
-					<div class="relative mr-4 right-14 text-black">
-						<img src="./logo-images/search-icon.png">
-					</div>
-					<div class="">
-						<a href="" ><img class="w-12 h-12"  src="./logo-images/location-icon.svg"></a>
-					</div>
-				</div>
-				<a href="#Profile">	
-					<div class="flex gap-3 mt-4 ml-16" >
-						<img class="rounded-[50%] h-12 w-12 " src="./logo-images/ajay_profile.jpg">
-						<div class="flex flex-col ">
-							<h1 class="font-medium">Ajay Vishnu</h1>
-							<p class="text-sm">@ajayvishnue</p>
-						</div>
-					</div>
-				</a>
+		<section id= 'Rewards' class="flex flex-col w-[87%] fixed h-[90%] bg-gray-50 ml-[13%] mt-[5%] gap-4 overflow-x-auto" >
+			<div class="Page-Title flex">
+				<h1 class="text-4xl font-bold pl-24 -mt-[3.5%] fixed">Rewards</h1>
 			</div>
-			<div class="flex gap-4">
+			<div class="flex gap-4 justify-center items-center mt-4">
 				<div class="flex flex-col flex-wrap gap-4 mt-2">
 					<div class="w-[630px] h-80 rounded-3xl shadow-lg bg-white flex items-center p-4">
 						<img class="absolute h-80 w-80 mt-2 ml-48 z-0 opacity-30" src="./logo-images/WRAPCOIN-white.svg">
@@ -322,19 +294,19 @@
 							<img class="w-1/2 h-1/2" src="./logo-images/WRAPCOIN-white.svg"/>
 							<div class="flex flex-col justify-center items-center mr-6 gap-0">
 								<h1 class="text-gray-500  text-3xl text-center font-bold">BALANCE</h1>
-								<h1 class="text-6xl font-bold text-white text-center">1352</h1>
+								<h1 class="counter text-6xl font-bold text-white text-center" data-count="1352">0</h1>
 								<h1 class="text-xl text-white text-center font-bold">WRAP COINS</h1>
 							</div>
 						</div>
 						<div class="flex flex-col justify-center items-center w-1/3 z-10">
 							<h1 class="text-2xl font-semibold ">Total Spent</h1>
 							<div class="flex">
-								<p class="text-4xl font-bold text-[#FFCB0A]">1524</p>
+								<p class="counter text-4xl font-bold text-[#FFCB0A]" data-count="9999">0</p>
 								<img class="h-9 w-9" src="./logo-images/WRAPCOIN-yellow.svg"/>
 							</div>
 							<h1 class="text-2xl font-semibold mt-3">Total Recieved</h1>
 							<div class="flex">
-								<p class="text-4xl font-bold text-[#FFCB0A]">2300</p>
+								<p class="counter text-4xl font-bold text-[#FFCB0A]" data-count="2100">0</p>
 								<img class="h-9 w-9" src="logo-images/WRAPCOIN-yellow.svg">
 							</div>
 						</div>
@@ -347,6 +319,7 @@
 						</div>
 						<h1 class="text-center mt-2 mb-2">Watch an Ad</h1>
 						<div class="flex justify-center gap-10">
+							
 							<img class="h-[60px] w-[60px]" src="./logo-images/WRAPCOIN-yellow.svg" alt="wrap-coin-image">
 							<img class="h-[60px] w-[60px]" src="./logo-images/WRAPCOIN-yellow.svg" alt="wrap-coin-image">
 							<img class="h-[60px] w-[60px]" src="./logo-images/WRAPCOIN-black.svg" alt="wrap-coin-image">
@@ -427,35 +400,15 @@
 			</div>
 		</section>
 	
-		<section id= 'News' class="flex flex-wrap gap-4 w-[85%] h-full absolute bg-white ml-[15%] items-center justify-center m-0 " >
-			<div class="header-section flex mb-4 mt-4 flex-wrap  mt-0">
-				<div class="dashboard">
-					<h1 class="text-4xl font-bold mt-5 ">News</h1>
-				</div>
-				<div class="  flex justify-center items-center mr-6 h-8 my-2 ml-28 mt-6">
-					<input type="search" class="bg-purple-white relative w-96 shadow p-3 rounded-lg" placeholder="Search">
-					<div class="relative mr-4 right-14 text-black">
-						<img src="./logo-images/search-icon.png">
-					</div>
-					<div class="">
-						<a href="" ><img class="w-12 h-12"  src="./logo-images/location-icon.svg"></a>
-					</div>
-				</div>
-				<a href="#Profile">
-					<div class="flex gap-3 mt-4 ml-24" >
-						<img class="rounded-[50%] h-12 w-12 " src="./logo-images/ajay_profile.jpg">
-						<div class="flex flex-col ">
-							<h1 class="font-medium">Ajay Vishnu</h1>
-							<p class="text-sm">@ajayvishnue</p>
-						</div>
-					</div>
-				</a>
+		<section id= 'News' class="flex flex-col w-[87%] fixed h-[90%] bg-gray-50 ml-[13%] mt-[5%] gap-4 overflow-x-auto" >
+			<div class="Page-Title flex">
+				<h1 class="text-4xl font-bold pl-24 -mt-[3.5%] fixed">News</h1>
 			</div>
-			<div class="flex flex-wrap gap-4 items-center justify-center">
+			<div class="flex flex-wrap gap-4 items-center justify-center mt-4">
 				<div class="h-80 w-80 bg-gray-50 rounded-lg shadow-sm flex flex-col items-center p-2">
 					<img class="h-52 w-80 rounded-lg" src="logo-images/news-1.png"/>
 					<div class="space-y-0">
-						<h1 class="mt-2 text-left text-black font-semibold text-md mb-1 h-9 overflow-hidden leading-none"> WRAP, a web application for waste management launched.</h1>
+						<h1 class="mt-2  text-black font-semibold text-md mb-1 h-9 overflow-hidden leading-none"> WRAP, a web application for waste management launched.</h1>
 						<p class="h-7 overflow-hidden leading-none text-sm">WRAP is a web application constructed by a group of innovators, which intends ..</p>
 						<button class="text-[#009743] font-semibold text-xs">View more..</button>
 					</div>
@@ -463,7 +416,7 @@
 				<div class="h-80 w-80 bg-gray-50 rounded-lg shadow-sm flex flex-col items-center p-2">
 					<img class="h-52 w-80 rounded-lg" src="logo-images/news-2.png"/>
 					<div class="space-y-0">
-						<h1 class="mt-2 text-left text-black font-semibold text-md mb-1 h-9 overflow-hidden leading-none">Survey shows, WRAP reduced waste management problem by 28%.</h1>
+						<h1 class="mt-2  text-black font-semibold text-md mb-1 h-9 overflow-hidden leading-none">Survey shows, WRAP reduced waste management problem by 28%.</h1>
 						<p class="h-7 overflow-hidden leading-none text-sm">The survey analysis conducted by INC college students as a project shows..</p>
 						<button class="text-[#009743] font-semibold text-xs">View more..</button>
 					</div>
@@ -471,7 +424,7 @@
 				<div class="h-80 w-80 bg-gray-50 rounded-lg shadow-sm flex flex-col items-center p-2">
 					<img class="h-52 w-80 rounded-lg" src="logo-images/news-3.png"/>
 					<div>
-						<h1 class="mt-2 text-left text-black font-semibold text-md mb-1 h-9 overflow-hidden leading-none"> WRAP included in the top 5 Waste Management Systems in India.</h1>
+						<h1 class="mt-2  text-black font-semibold text-md mb-1 h-9 overflow-hidden leading-none"> WRAP included in the top 5 Waste Management Systems in India.</h1>
 						<p class="h-7 overflow-hidden leading-none text-sm">The WRAP application ranks 2nd position in the top 5 most innovative Waste ..</p>
 						<button class="text-[#009743] font-semibold text-xs">View more..</button>
 					</div>
@@ -481,7 +434,7 @@
 				<div class="h-80 w-80 bg-gray-50 rounded-lg shadow-sm flex flex-col items-center p-2">
 					<img class="h-52 w-80 rounded-lg" src="logo-images/news-4.png"/>
 					<div>
-						<h1 class="mt-2 text-left text-black font-semibold text-md mb-1 h-8 overflow-hidden leading-none">Introduction of WRAP leads to 25% further increase in recycling.</h1>
+						<h1 class="mt-2  text-black font-semibold text-md mb-1 h-8 overflow-hidden leading-none">Introduction of WRAP leads to 25% further increase in recycling.</h1>
 						<p class="h-7 overflow-hidden leading-none text-sm">From the last 6 months survey, it is noticed that there is a rapid production rate in recycling factories..</p>
 						<button class="text-[#009743] font-semibold text-xs">View more..</button>
 					</div>
@@ -489,7 +442,7 @@
 				<div class="h-80 w-80 bg-gray-50 rounded-lg shadow-sm flex flex-col items-center p-2">
 					<img class="h-52 w-80 rounded-lg" src="logo-images/news-5.png"/>
 					<div>
-						<h1 class="mt-2 text-left text-black font-semibold text-md mb-1 h-8 overflow-hidden leading-none">WRAP becomes India's first service free waste management application.</h1>
+						<h1 class="mt-2  text-black font-semibold text-md mb-1 h-8 overflow-hidden leading-none">WRAP becomes India's first service free waste management application.</h1>
 						<p class="h-7 overflow-hidden leading-none text-sm">WRAP (Together we WRAP for a cleaner tomorrow) is India's first web application which provides free waste management... </p>
 						<button class="text-[#009743] font-semibold text-xs">View more..</button>
 					</div>
@@ -497,7 +450,7 @@
 				<div class="h-80 w-80 bg-gray-50 rounded-lg shadow-sm flex flex-col items-center p-2">
 					<img class="h-52 w-80 rounded-lg" src="logo-images/news-6.png"/>
 					<div>
-						<h1 class="mt-2 text-left text-black font-semibold text-md mb-1 h-8 overflow-hidden leading-none">WRAP collaborated with various waste management factories.</h1>
+						<h1 class="mt-2  text-black font-semibold text-md mb-1 h-8 overflow-hidden leading-none">WRAP collaborated with various waste management factories.</h1>
 						<p class="h-7 overflow-hidden leading-none text-sm">WRAP has collaborated with 3 major waste management companies in order to develop new innovative methods to safely and rightly.. </p>
 						<button class="text-[#009743] font-semibold text-xs">View more..</button>
 					</div>
@@ -505,32 +458,12 @@
 			</div>
 		</section>
 
-		<section id= 'Redeem' class="flex flex-col w-[85%] h-full absolute bg-gray-50 ml-[15%] gap-4" >
-			<div class="header-section flex mb-6 flex-wrap mt-4 items-center ">
-				<div class="Redeem">
-					<h1 class="text-4xl font-bold mt-5 ">Redeem</h1>
-				</div>
-				<div class="flex justify-center items-center mr-6 h-8 my-2 ml-20 mt-6">
-					<input type="search" class="bg-purple-white relative w-96 shadow p-3 rounded-lg" placeholder="Search">
-					<div class="relative mr-4 right-14 text-black">
-						<img src="./logo-images/search-icon.png">
-					</div>
-					<div class="">
-						<a href="" ><img class="w-12 h-12"  src="./logo-images/location-icon.svg"></a>
-					</div>
-				</div>
-				<a href="#Profile">
-					<div class="flex gap-3 mt-4 ml-8" >
-						<img class="rounded-[50%] h-12 w-12 " src="./logo-images/ajay_profile.jpg">
-						<div class="flex flex-col ">
-							<h1 class="font-medium">Ajay Vishnu</h1>
-							<p class="text-sm">@ajayvishnue</p>
-						</div>
-					</div>
-				</a>
+		<section id= 'Redeem' class="flex flex-col w-[87%] fixed h-[90%] bg-gray-50 ml-[13%] mt-[5%] gap-4 overflow-x-auto" >
+			<div class="Page-Title flex">
+				<h1 class="text-4xl font-bold pl-24 -mt-[3.5%] fixed">Redeem</h1>
 			</div>
-			<h1 class="text-xl font-semibold">Trending now</h1>
-			<div class="flex gap-4">
+			<h1 class="text-2xl font-semibold text-center">Trending now</h1>
+			<div class="flex gap-10 justify-center">
 				<div class="flex flex-col p-4 bg-white rounded-2xl shadow-lg h-68 w-56">
 					<img class="rounded-2xl" src="./logo-images/Redeem-img1.svg" />
 					<p class="px-6 text-center text-sm pt-4 font-semibold">Amazon.in Rs. 50 Gift Card</p>
@@ -548,8 +481,8 @@
 					<p class="px-2 text-center text-sm pt-4 font-semibold">Get LEAF Studios new Bass heads FREE</p>
 				</div>
 			</div>
-			<h1 class="text-xl font-semibold ">Ongoing offers</h1>
-			<div class="flex gap-4">
+			<h1 class="text-2xl font-semibold text-center">Ongoing offers</h1>
+			<div class="flex gap-10 justify-center">
 				<div class="flex flex-col p-4 bg-white rounded-2xl shadow-lg h-68 w-56">
 					<img class="rounded-2xl" src="./logo-images/Redeem-img4.svg" />
 					<p class="px-6 text-center text-sm pt-4 font-semibold">boAt Save upto 70% + extra 10% off</p>
@@ -569,31 +502,11 @@
 			</div>
 		</section>
 
-		<section id= 'Notifications' class="flex flex-col w-[85%] h-full absolute bg-gray-50 ml-[15%] items-center" >
-			<div class="header-section flex mb-12 flex-wrap mt-4">
-				<div class="dashboard">
-					<h1 class="text-4xl font-bold mt-5 ">Notifications</h1>
-				</div>
-				<div class="  flex justify-center items-center mr-6 h-8 my-2 ml-16 mt-6">
-					<input type="search" class="bg-purple-white relative w-96 shadow p-3 rounded-lg" placeholder="Search">
-					<div class="relative mr-4 right-14 text-black">
-						<img src="./logo-images/search-icon.png">
-					</div>
-					<div class="">
-						<a href="" ><img class=" ml-0 h-12 w-12"  src="./logo-images/location-icon.svg"></a>
-					</div>
-				</div>
-				<a href="#Profile">
-					<div class="flex gap-3 mt-4 ml-8" >
-						<img class="rounded-[50%] h-12 w-12 " src="./logo-images/ajay_profile.jpg">
-						<div class="flex flex-col ">
-							<h1 class="font-medium">Ajay Vishnu</h1>
-							<p class="text-sm">@ajayvishnue</p>
-						</div>
-					</div>
-				</a>
+		<section id= 'Notifications' class="flex flex-col w-[87%] fixed h-[90%] bg-gray-50 ml-[13%] mt-[5%] gap-4 overflow-x-auto" >
+			<div class="Page-Title flex">
+				<h1 class="text-4xl font-bold pl-24 -mt-[3.5%] fixed">Notifications</h1>
 			</div>
-			<div class="flex flex-col gap-4">
+			<div class="flex flex-col gap-4 ml-24 mt-4">
 				<div class="bg-white w-[1000px] h-24 rounded-xl shadow-lg">
 					<div class="h-24 flex items-center">
 						<img class="ml-6 h-12 w-12" src="./logo-images/Trash-black.svg" alt=""/>
@@ -634,166 +547,128 @@
 			</div>
 		</section>
 
-		<section id= 'Support' class="flex flex-col w-[85%] h-full absolute bg-gray-50 ml-[15%] gap-6" >
-			<div class="header-section flex mb-12 flex-wrap mt-4">
-				<div class="dashboard">
-					<h1 class="text-4xl font-bold mt-5">Support</h1>
-				</div>
-				<div class="flex justify-center items-center mr-6 h-8 my-2 ml-24 mt-6">
-					<input type="search" class="bg-purple-white relative w-96 shadow p-3 rounded-lg" placeholder="Search">
-					<div class="relative mr-4 right-14 text-black">
-						<img src="./logo-images/search-icon.png">
+		<section id= 'Support' class="flex flex-col w-[87%] fixed h-[90%] bg-gray-50 ml-[13%] mt-[5%] gap-4 overflow-x-auto" >
+			<div class="Page-Title flex">
+				<h1 class="text-4xl font-bold pl-24 -mt-[3.5%] fixed">Support</h1>
+			</div>
+			<div class="flex flex-col justify-center items-center gap-4">
+				<h1 class="text-[#009743] text-4xl font-semibold">Reach us at</h1>
+				<div class="flex gap-8 items-center">
+					<div class="w-80 h-48 bg-white rounded-3xl shadow-lg flex justify-center">
+						<img class="w-8 h-8 mt-11" src="./logo-images/Support-location.svg"/>
+						<h1 class="mt-11 ml-4">WRAP Avenue<br>Near InfoPark Ltd.<br>Kochi - Kerala<br>682012</h1>
 					</div>
-					<div class="">
-						<a href="" ><img class=" ml-0 h-12 w-12"  src="./logo-images/location-icon.svg"></a>
-					</div>
-				</div>
-				<a href="#Profile">
-					<div class="flex gap-3 mt-4 ml-12" >
-						<img class="rounded-[50%] h-12 w-12 " src="./logo-images/ajay_profile.jpg">
-						<div class="flex flex-col ">
-							<h1 class="font-medium">Ajay Vishnu</h1>
-							<p class="text-sm">@ajayvishnue</p>
+					<div class="w-80 h-48 bg-white rounded-3xl shadow-lg flex justify-center">
+						<div class="flex flex-col gap-0">					
+							<img class="w-6 h-6 mt-12" src="./logo-images/Support-phone.svg"/>
+							<img class="w-6 h-6 mt-6" src="./logo-images/Support-mail.svg"/>
+						</div>
+						<div class="mt-12 ml-4">
+							<h1>+91 3456232434</h1>
+							<h1 class="mt-4">support@wrap.org</h1>
+							<h1>info@wrap.org</h1>
 						</div>
 					</div>
-				</a>
-			</div>
-			<h1 class="text-[#009743] text-4xl font-semibold">Reach us at</h1>
-			<div class="flex gap-8 items-center">
-				<div class="w-80 h-48 bg-white rounded-3xl shadow-lg flex justify-center">
-					<img class="w-8 h-8 mt-11" src="./logo-images/Support-location.svg"/>
-					<h1 class="mt-11 ml-4">WRAP Avenue<br>Near InfoPark Ltd.<br>Kochi - Kerala<br>682012</h1>
 				</div>
-				<div class="w-80 h-48 bg-white rounded-3xl shadow-lg flex justify-center">
-					<div class="flex flex-col gap-0">					
-						<img class="w-6 h-6 mt-12" src="./logo-images/Support-phone.svg"/>
-						<img class="w-5 h-5 mt-6" src="./logo-images/Support-mail.svg"/>
+				<h1 class="text-[#009743] text-4xl font-semibold">FAQs</h1>
+				<div class="w-[680px] h-68 bg-white rounded-3xl shadow-lg">
+					<div class="item py-4 mt-2 border-b-2 border-gray-100 mx-6" x-data="{isOpen : false}">
+						<a href="#" class="flex items-center justify-between text-xl" @click.prevent="isOpen = true">
+							<h4 :class="{'text-green-400 font-medium' : isOpen == true}">How do we protect your personal information ?</h4>
+							<svg 
+							:class="{'transform rotate-180' : isOpen == true}"
+							class="w-6 h-6 text-gray-500"
+								fill="none" stroke-linecap="round" 
+								stroke-linejoin="round" stroke-width="2" 
+								viewBox="0 0 24 24" stroke="currentColor">
+								<path d="M19 9l-7 7-7-7"></path>
+							</svg>
+						</a>
+						<div x-show="isOpen" @click.away="isOpen = false" class="mt-3" :class="{'text-gray-600' : isOpen == true}">
+							<p>We adopt reasonable security practices and procedures to help safeguard Your personal information under Our control from
+								unauthorized access. However, You acknowledge that no Internet transmission or system or server can be truly 100% secure. Therefore,
+								although We take all reasonable steps to secure Your personal information, We do not promise or guarantee the same, and You should
+								not expect that Your personal information, or other communications while using the Platform will always remain secure and safeguarded
+								by Us. You should always be caution while providing, sharing or disclosing Your personal information using the Platform. But not under
+								any circumstance, your personal information will not be intentionally misused by our platform.</p>
+						</div>
 					</div>
-					<div class="mt-12 ml-4">
-						<h1>+91 3456232434</h1>
-						<h1 class="mt-4">support@wrap.org</h1>
-						<h1>info@wrap.org</h1>
+					
+					<div class="item py-4 border-b-2 border-gray-100 mx-6" x-data="{isOpen : false}">
+						<a href="#" class="flex items-center justify-between text-xl" @click.prevent="isOpen = true">
+							<h4 :class="{'text-green-400 font-medium' : isOpen == true}">How do I use my WRAP coins ?</h4>
+							<svg 
+							:class="{'transform rotate-180' : isOpen == true}"
+							class="w-6 h-6 text-gray-500"
+								fill="none" stroke-linecap="round" 
+								stroke-linejoin="round" stroke-width="2" 
+								viewBox="0 0 24 24" stroke="currentColor">
+								<path d="M19 9l-7 7-7-7"></path>
+							</svg>
+						</a>
+						<div x-show="isOpen" @click.away="isOpen = false" class="mt-3" :class="{'text-gray-600' : isOpen == true}">
+							<p>The Wrap coins can be used to redeem swags or rewards from our platform. Also Wrap coins can be used buys products, discount
+								coupons and recipts from associates. Using Wrap coins exclusive products can be prebooked the products of company that we have
+								colabrated.</p>
+						</div>
 					</div>
-				</div>
-			</div>
-			<h1 class="text-[#009743] text-4xl font-semibold">FAQs</h1>
-			<div class="w-[680px] h-68 bg-white rounded-3xl shadow-lg">
-				<div class="item py-4 mt-2 border-b-2 border-gray-100 mx-6" x-data="{isOpen : false}">
-					<a href="#" class="flex items-center justify-between text-xl" @click.prevent="isOpen = true">
-						<h4 :class="{'text-green-400 font-medium' : isOpen == true}">How do we protect your personal information ?</h4>
-						<svg 
-						:class="{'transform rotate-180' : isOpen == true}"
-						class="w-5 h-5 text-gray-500"
-							fill="none" stroke-linecap="round" 
-							stroke-linejoin="round" stroke-width="2" 
-							viewBox="0 0 24 24" stroke="currentColor">
-							<path d="M19 9l-7 7-7-7"></path>
-						</svg>
-					</a>
-					<div x-show="isOpen" @click.away="isOpen = false" class="mt-3" :class="{'text-gray-600' : isOpen == true}">
-						<p>We adopt reasonable security practices and procedures to help safeguard Your personal information under Our control from
-							unauthorized access. However, You acknowledge that no Internet transmission or system or server can be truly 100% secure. Therefore,
-							although We take all reasonable steps to secure Your personal information, We do not promise or guarantee the same, and You should
-							not expect that Your personal information, or other communications while using the Platform will always remain secure and safeguarded
-							by Us. You should always be caution while providing, sharing or disclosing Your personal information using the Platform. But not under
-							any circumstance, your personal information will not be intentionally misused by our platform.</p>
+		
+					<div class="item py-4 border-b-2 border-gray-100 mx-6" x-data="{isOpen : false}">
+						<a href="#" class="flex items-center justify-between text-xl" @click.prevent="isOpen = true">
+							<h4 :class="{'text-green-400 font-medium' : isOpen == true}"> Do I earn coins by refering friends to WRAP?</h4>
+							<svg 
+							:class="{'transform rotate-180' : isOpen == true}"
+							class="w-6 h-6 text-gray-500"
+								fill="none" stroke-linecap="round" 
+								stroke-linejoin="round" stroke-width="2" 
+								viewBox="0 0 24 24" stroke="currentColor">
+								<path d="M19 9l-7 7-7-7"></path>
+							</svg>
+						</a>
+						<div x-show="isOpen" @click.away="isOpen = false" class="mt-3" :class="{'text-gray-600' : isOpen == true}">
+							<p> Yes, you earn 20 Wrap coins per friend that you invite to Wrap. Once your friend install the Wrap app, you will receive invitation
+								reward. When the invited person initiates his first Wrap pickup using the app, then you will recieve 50 Wrap coins as reward.</p>
+						</div>
 					</div>
-				</div>
-				
-				<div class="item py-4 border-b-2 border-gray-100 mx-6" x-data="{isOpen : false}">
-					<a href="#" class="flex items-center justify-between text-xl" @click.prevent="isOpen = true">
-						<h4 :class="{'text-green-400 font-medium' : isOpen == true}">How do I use my WRAP coins ?</h4>
-						<svg 
-						:class="{'transform rotate-180' : isOpen == true}"
-						class="w-5 h-5 text-gray-500"
-							fill="none" stroke-linecap="round" 
-							stroke-linejoin="round" stroke-width="2" 
-							viewBox="0 0 24 24" stroke="currentColor">
-							<path d="M19 9l-7 7-7-7"></path>
-						</svg>
-					</a>
-					<div x-show="isOpen" @click.away="isOpen = false" class="mt-3" :class="{'text-gray-600' : isOpen == true}">
-						<p>The Wrap coins can be used to redeem swags or rewards from our platform. Also Wrap coins can be used buys products, discount
-							coupons and recipts from associates. Using Wrap coins exclusive products can be prebooked the products of company that we have
-							colabrated.</p>
-					</div>
-				</div>
-	
-				<div class="item py-4 border-b-2 border-gray-100 mx-6" x-data="{isOpen : false}">
-					<a href="#" class="flex items-center justify-between text-xl" @click.prevent="isOpen = true">
-						<h4 :class="{'text-green-400 font-medium' : isOpen == true}"> Do I earn coins by refering friends to WRAP?</h4>
-						<svg 
-						:class="{'transform rotate-180' : isOpen == true}"
-						class="w-5 h-5 text-gray-500"
-							fill="none" stroke-linecap="round" 
-							stroke-linejoin="round" stroke-width="2" 
-							viewBox="0 0 24 24" stroke="currentColor">
-							<path d="M19 9l-7 7-7-7"></path>
-						</svg>
-					</a>
-					<div x-show="isOpen" @click.away="isOpen = false" class="mt-3" :class="{'text-gray-600' : isOpen == true}">
-						<p> Yes, you earn 20 Wrap coins per friend that you invite to Wrap. Once your friend install the Wrap app, you will receive invitation
-							reward. When the invited person initiates his first Wrap pickup using the app, then you will recieve 50 Wrap coins as reward.</p>
-					</div>
-				</div>
-	
-				<div class="item py-4 mx-6 mb-2" x-data="{isOpen : false}">
-					<a href="#" class="flex items-center justify-between text-xl" @click.prevent="isOpen = true">
-						<h4 :class="{'text-green-400 font-medium' : isOpen == true}">Where does the collected waste go ?</h4>
-						<svg 
-						:class="{'transform rotate-180' : isOpen == true}"
-						class="w-5 h-5 text-gray-500"
-							fill="none" stroke-linecap="round" 
-							stroke-linejoin="round" stroke-width="2" 
-							viewBox="0 0 24 24" stroke="currentColor">
-							<path d="M19 9l-7 7-7-7"></path>
-						</svg>
-					</a>
-					<div x-show="isOpen" @click.away="isOpen = false" class="mt-3" :class="{'text-gray-600' : isOpen == true}">
-						<p> Through door to door pickup the sorted E-waste,plastic and other recycleable wastes are collected by autherised authorities.
-							The collected waste is then taken to the collection centers and once again properly sorted into E-waste,recycleable waste and
-							reuseable waste. Then the recycleable wastes are sent to recycling factories and resuseable wastes are sent to proper factories
-							for further processing.</p>
+		
+					<div class="item py-4 mx-6 mb-2" x-data="{isOpen : false}">
+						<a href="#" class="flex items-center justify-between text-xl" @click.prevent="isOpen = true">
+							<h4 :class="{'text-green-400 font-medium' : isOpen == true}">Where does the collected waste go ?</h4>
+							<svg 
+							:class="{'transform rotate-180' : isOpen == true}"
+							class="w-6 h-6 text-gray-500"
+								fill="none" stroke-linecap="round" 
+								stroke-linejoin="round" stroke-width="2" 
+								viewBox="0 0 24 24" stroke="currentColor">
+								<path d="M19 9l-7 7-7-7"></path>
+							</svg>
+						</a>
+						<div x-show="isOpen" @click.away="isOpen = false" class="mt-3" :class="{'text-gray-600' : isOpen == true}">
+							<p> Through door to door pickup the sorted E-waste,plastic and other recycleable wastes are collected by autherised authorities.
+								The collected waste is then taken to the collection centers and once again properly sorted into E-waste,recycleable waste and
+								reuseable waste. Then the recycleable wastes are sent to recycling factories and resuseable wastes are sent to proper factories
+								for further processing.</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<section id= 'Settings' class="flex flex-col w-[85%] h-full absolute bg-gray-50 ml-[15%]" >
-			<div class="header-section flex mb-12 flex-wrap mt-4">
-				<div class="Settings">
-					<h1 class="text-4xl font-bold mt-5 ">Settings</h1>
-				</div>
-				<div class="  flex justify-center items-center mr-6 h-8 my-2 ml-40 mt-6">
-					<input type="search" class="bg-purple-white relative w-96 shadow p-3 rounded-lg" placeholder="Search">
-					<div class="relative mr-4 right-14 text-black">
-						<img src="./logo-images/search-icon.png">
-					</div>
-					<div class="">
-						<a href="" ><img class="w-12 h-12"  src="./logo-images/location-icon.svg"></a>
-					</div>
-				</div>
-				<a href="#Profile">
-					<div class="flex gap-3 mt-4 ml-6" >
-						<img class="rounded-[50%] h-12 w-12 " src="./logo-images/ajay_profile.jpg">
-						<div class="flex flex-col ">
-							<h1 class="font-medium">Ajay Vishnu</h1>
-							<p class="text-sm">@ajayvishnue</p>
-						</div>
-					</div>
-				</a>
+		<section id= 'Settings' class="flex flex-col w-[87%] fixed h-[90%] bg-gray-50 ml-[13%] mt-[5%] gap-4 overflow-x-auto" >
+			<div class="Page-Title flex">
+				<h1 class="text-4xl font-bold pl-24 -mt-[3.5%] fixed">Settings</h1>
 			</div>
-			<div class="flex flex-col gap-4">
-				<h1 class="text-2xl font-semibold my-4">Edit Profile</h1>
+			<div class="flex flex-col gap-4 ml-24">
+				<h1 class="text-2xl font-semibold my-4 text-left">Edit Profile</h1>
 				<div class="flex gap-4">
 					<div class="bg-white w-[550px] h-52 rounded-3xl shadow-lg">
-						<div class="flex h-1/2 w-[550px] items-center justify-center px-8 gap-0">
-							<img class="rounded-[50%] h-16 w-16" src="./logo-images/ajay_profile.jpg" alt="profile pic"/>
-							<h1 class="font-xl ml-4 text-xl">Update Picture</h1>
-							<button class="py-2 px-8 m-auto bg-[#009743] rounded-lg text-white">Upload</button>
-							<a href=""><h1 class="text-[#009743] mr-4 font-semibold">Remove</h1></a>
+						<div class="flex h-1/2 w-[550px] items-center gap-0">
+							<img class="rounded-[50%] h-16 w-16 ml-6 bg-gray-100" src="./logo-images/ajay_profile.png" alt="profile pic"/>
+							<h1 class="font-xl text-xl ml-2">Update Picture</h1>
+							<button class="py-2 px-3 m-auto bg-[#009743] rounded-lg text-white ml-14">Upload</button>
+							<a href=""><h1 class="text-[#009743] font-semibold mr-14">Remove</h1></a>
 						</div>
-						<div class="flex gap-12 items-center px-8">
+						<div class="flex gap-12 items-center px-6">
 							<div class="w-1/2 h-full flex flex-col gap-2">
 								<h1>First Name</h1>
 								<input class="w-52 h-9 border-2 border-gray-500 rounded-md pl-1" type="text">
@@ -816,7 +691,7 @@
 								<input class="w-40 h-9 border-2 border-gray-500 rounded-md pl-1" type="text">
 							</div>
 						</div>
-						<button class="py-2 px-8 ml-6 my-4 m-auto bg-[#009743] rounded-lg text-white">Update</button>
+						<button class="py-2 px-3 ml-6 my-4 m-auto bg-[#009743] rounded-lg text-white">Update</button>
 					</div>
 				</div>
 				<div class="flex bg-white w-[1014px] h-24 rounded-xl shadow-lg">
@@ -824,7 +699,7 @@
 						<h1 class="text-xl font-semibold">Receive emails from WRAP ?</h1>
 						<h1>Subscribe to our newsletter.</h1>
 					</div>
-					<div class="w-16 mt-6 absolute right-44">
+					<div class="w-16 mt-8 absolute right-64">
 						<label class="inline-flex relative items-center cursor-pointer">
 							<input type="checkbox" value="" class="sr-only peer" checked>
 							<div class="w-11 h-6 bg-gray-200 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#009743]"></div>
@@ -836,508 +711,474 @@
 						<h1 class="text-xl font-semibold">Delete Account</h1>
 						<h1>By deleting your account you will lose all your data.</h1>
 					</div>
-					<div class="h-24 flex items-center absolute right-48">
+					<div class="h-24 flex items-center absolute right-64">
 						<a href=""><h1 class="text-red-600 font-semibold">Delete Account</h1></a>
 					</div>
 				</div>
-				<button class="py-2 px-8 ml-0 my-4 m-auto bg-[#009743] rounded-lg text-white">Save changes</button>
+				<button class="py-2 ml-0 my-4 m-auto bg-[#009743] rounded-lg text-white px-3">Save changes</button>
 
 			</div>
 		</section>
 
-		<section id= 'logout' class="flex flex-col w-[85%] h-full absolute bg-white ml-[15%] items-center justify-center gap-8" >
-			<div>
+		<section id= 'logout' class="flex flex-col w-[87%] fixed h-[90%] bg-gray-50 ml-[13%] mt-[5%] gap-4 overflow-x-auto" >
+			<div class="flex justify-center items-center mt-4">
 				<img class="" src="logo-images/Logout-main-img.svg"/>
 			</div>
 			<div>
 				<h1 class="text-center text-3xl font-semibold p-2">Are you sure?</h1>
 				<h1 class="text-center text-lg font-lg p-2">You are about to logout, are you sure you want to log out?</h1>
 			</div>
-			<div>	
-				<button class="w-48 h-12 rounded-lg bg-red-400 text-white mr-4">LOGOUT</button>
-				<button class="w-48 h-12 rounded-lg bg-black text-white">Go back</button>
+			<div class="flex justify-center items-center">	
+				<a href="./index.html">
+					<button class="w-48 h-12 rounded-lg bg-red-400 text-white mr-4">LOGOUT</button>
+				</a>
+				<a href="#Dashboard">
+					<button class="w-48 h-12 rounded-lg bg-black text-white">Go back</button>
+				</a>
 			</div>
 		</section>
 
-		<section id= 'Profile' class="flex flex-col w-[85%] h-full absolute bg-gray-50 ml-[15%] items-center gap-8" >
-			<div class="header-section flex mb-12 flex-wrap mt-4">
-				<div class="Freeaway">
-					<h1 class="text-4xl font-bold mt-5 ">Profile</h1>
-				</div>
-				<div class="  flex justify-center items-center mr-6 h-8 my-2 ml-40 mt-6">
-					<input type="search" class="bg-purple-white relative w-96 shadow p-3 rounded-lg" placeholder="Search">
-					<div class="relative mr-4 right-14 text-black">
-						<img src="./logo-images/search-icon.png">
-					</div>
-					<div class="">
-						<a href="" ><img class="w-12 h-12"  src="./logo-images/location-icon.svg"></a>
-					</div>
-				</div>
-				<a href="#Profile">
-					<div class="flex gap-3 mt-4 ml-6" >
-						<img class="rounded-[50%] h-12 w-12 " src="./logo-images/ajay_profile.jpg">
-						<div class="flex flex-col ">
-							<h1 class="font-medium">Ajay Vishnu</h1>
-							<p class="text-sm">@ajayvishnue</p>
+
+		<section id='Profile' class="flex flex-col w-[87%] fixed h-[90%] bg-gray-50 ml-[13%] mt-[5%] gap-4 overflow-x-auto"  >
+			<div class="Page-Title flex">
+				<h1 class="text-4xl font-bold pl-24 -mt-[3.5%] fixed">Profile</h1>
+			</div>
+			<div class="flex items-center flex-col gap-4 h-full mt-8">
+				<div class="flex flex-col px-12 py-8 max-w-[800px] bg-white rounded-3xl shadow-lg">
+					<div class="flex w-full gap-40">
+						<div class="flex">
+							<img class= "rounded-[50%] h-36 w-36 bg-gray-100" src="./logo-images/ajay_profile.png"/>
+							<div class="h-24 w-48 ml-4 flex flex-col">
+								<h1 class="text-xl mt-10 font-semibold">User_7338</h1>
+								<P class="text-md font-md">@userid121</P>
+							</div>
+						</div>
+						<div class="flex gap-4 mt-12 ml-12">
+							<a href=""><img class="h-6 w-6" src="logo-images/link-icon.svg" alt=""></a>
+							<a href=""><img class="h-6 w-6" src="logo-images/facebook-oicon.svg" alt=""></a>
+							<a href=""><img class="h-6 w-6" src="logo-images/instagram-icon.svg" alt=""></a>
 						</div>
 					</div>
-				</a>
-			</div>
-			<div class="flex flex-col h-80 w-[800px] bg-white rounded-3xl shadow-lg">
-				<div class="flex w-full gap-40 justify-center mt-3">
-					<div class="flex">
-						<img class= "rounded-[50%] h-36 w-36 " src="./logo-images/ajay_profile.jpg"/>
-						<div class="h-24 w-48 ml-8 flex flex-col items-center">
-							<h1 class="text-xl mt-10 font-semibold">Ajay Vishnu E</h1>
-							<P class="text-md font-md">@ajayvishnue</P>
+					<h1 class=" my-2 text-lg font-semibold text-[#FFCB0A]">About Me</h1>
+					<P class=" mr-20 w-full">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nemo nulla et impedit enim rerum pariatur aliquid incidunt! Commodi ad suscipit vero eveniet neque ab illo esse optio quidem. Similique.</P>
+					<div class="flex  gap-44 mt-3">
+						<h1 class="text-[#009743] font-semibold">Email : userid121@gmail.com</h1>
+						<h1 class="text-[#009743] font-semibold mr-0">Mobile : +91 79077 34688</h1>
+					</div>
+				</div>
+				<div class="flex gap-4">
+					<div class="h-40 w-64 bg-white rounded-3xl shadow-lg p-4 pl-8">
+						<h1 class="w-full font-medium text-[#FFCB0A] text-lg" >Home Address</h1>
+						<p class="">
+							Neelamkavil House,<br>
+							Near R C Church,<br>
+							Pavaratty P. O<br>
+							680507
+						</p>
+					</div>
+					<div class="h-40 w-64 bg-white rounded-3xl shadow-lg p-4 pl-8">
+						<h1 class="w-full font-medium text-[#FFCB0A] text-lg" >Work Address</h1>
+						<p class="">
+							Neelamkavil House,<br>
+							Near R C Church,<br>
+							Pavaratty P. O<br>
+							680507
+						</p>
+					</div>
+					<a href="">
+						<div class="h-40 w-64 bg-white rounded-3xl shadow-lg flex flex-col gap-4 items-center justify-center">
+							<img src="./logo-images/plus-icon-yellow.svg">
+							<h1>Add another address</h1>
 						</div>
-					</div>
-					<div class="flex gap-4 mt-12">
-						<img class="h-6 w-6" src="logo-images/link-icon.svg" alt="">
-						<img class="h-6 w-6" src="logo-images/facebook-oicon.svg" alt="">
-						<img class="h-6 w-6" src="logo-images/instagram-icon.svg" alt="">
-					</div>
-				</div>
-				<h1 class="ml-20 mt-3 font-semibold text-[#FFCB0A]">About Me</h1>
-				<P class="ml-20 mr-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nemo nulla et impedit enim rerum pariatur aliquid incidunt! Commodi ad suscipit vero eveniet neque ab illo esse optio quidem. Similique.</P>
-				<div class="flex ml-20 gap-32 mt-3">
-					<h1>Email : enricsneelamkavil@gmail.com</h1>
-					<h1 class="mr-20">Mobile : +91 79077 34688</h1>
-				</div>
-			</div>
-			<div class="flex gap-4">
-				<div class="h-52 w-64 bg-white rounded-3xl shadow-lg p-6 pr-4">
-					<h1 class="w-full font-medium text-[#FFCB0A] text-lg p-2" >Home Address</h1>
-					<p class="p-2">
-						Neelamkavil House,<br>
-						Near R C Church,<br>
-						Pavaratty P. O<br>
-						680507
-					</p>
-				</div>
-				<div class="h-52 w-64 bg-white rounded-3xl shadow-lg p-6 pr-4">
-					<h1 class="w-full font-medium text-[#FFCB0A] text-lg p-2" >Work Address</h1>
-					<p class="p-2">
-						Neelamkavil House,<br>
-						Near R C Church,<br>
-						Pavaratty P. O<br>
-						680507
-					</p>
-				</div>
-				<div class="h-52 w-64 bg-white rounded-3xl shadow-lg flex flex-col gap-4 items-center justify-center">
-					<img src="./logo-images/plus-icon-yellow.svg">
-					<h1>Add another address</h1>
+					</a>
 				</div>
 			</div>
 		</section>
-		<section id= 'Schedule' class="flex flex-col w-[85%] h-full absolute ml-[15%] items-center bg-gray-50" >
-			<div class="header-section flex mb-12 flex-wrap mt-4">
-				<div class="Freeaway">
-					<h1 class="text-4xl font-bold mt-5 ">Schedule</h1>
-				</div>
-				<div class="  flex justify-center items-center mr-6 h-8 my-2 ml-32 mt-6">
-					<input type="search" class="bg-purple-white relative w-96 shadow p-3 rounded-lg" placeholder="Search">
-					<div class="relative mr-4 right-14 text-black">
-						<img src="./logo-images/search-icon.png">
-					</div>
-					<div class="">
-						<a href="" ><img class="w-12 h-12"  src="./logo-images/location-icon.svg"></a>
-					</div>
-				</div>
-				<a href="#Profile">
-					<div class="flex gap-3 mt-4 ml-6" >
-						<img class="rounded-[50%] h-12 w-12 " src="./logo-images/ajay_profile.jpg">
-						<div class="flex flex-col ">
-							<h1 class="font-medium">Ajay Vishnu</h1>
-							<p class="text-sm">@ajayvishnue</p>
-						</div>
-					</div>
-				</a>
+
+		<section id= 'Schedule' class="flex flex-col w-[87%] fixed h-[90%] bg-gray-50 ml-[13%] mt-[5%] gap-4 overflow-x-auto" >
+			<div class="Page-Title flex">
+				<h1 class="text-4xl font-bold pl-24 -mt-[3.5%] fixed">Schedule</h1>
 			</div>
-			<div class="flex gap-4">
-				<div class="flex flex-col gap-4">
-					<h1 class="font-semibold text-xl">1.Select the type of waste</h1>
-					<div class="h-72 w-[600px] bg-white rounded-3xl shadow-lg flex flex-wrap gap-6 justify-center items-center py-6">
-						<div class="bg-orange-500 w-40 h-16 flex items-center justify-center rounded-xl shadow-sm gap-2 p-4">
-							<img src="./logo-images/Schedule-logos-1.svg" class=""/>
-							<h1 class="text-white leading-none">Paper or clipboard</h1>
-						</div>
-						<div class="bg-green-700 w-40 h-16 flex items-center justify-center rounded-xl shadow-sm gap-2 p-4">
-							<img src="./logo-images/Schedule-logos-2.svg" class=""/>
-							<h1 class="text-white ">Bio-waste</h1>
-						</div>
-						<div class="bg-blue-500 w-40 h-16 flex items-center justify-center rounded-xl shadow-sm gap-2 p-4">
-							<img src="./logo-images/Schedule-logos-3.svg" class=""/>
-							<h1 class="text-white leading-none">Plastic waste</h1>
-						</div>
-						<div class="bg-red-600 w-40 h-16 flex items-center justify-center rounded-xl shadow-sm gap-2 p-4">
-							<img src="./logo-images/Schedule-logos-4.svg" class=""/>
-							<h1 class="text-white ">Glass waste</h1>
-						</div>
-						<div class="bg-purple-500 w-40 h-16 flex items-center justify-center rounded-xl shadow-sm gap-2 p-4">
-							<img src="./logo-images/Schedule-logos-5.svg" class=""/>
-							<h1 class="text-white ">e-waste</h1>
-						</div>
-						<div class="bg-gray-500 w-40 h-16 flex items-center justify-center rounded-xl shadow-sm gap-2 p-4">
-							<img src="./logo-images/Schedule-logos-6.svg" class=""/>
-							<h1 class="text-white ">Others</h1>
+			<div class="flex justify-center items-center flex-col gap-6">
+				<div class="flex gap-8 ">
+					<div class="flex flex-col gap-6">
+						<h1 class="font-semibold text-xl">1.Select the type of waste</h1>
+						<div class="h-72 w-[590px] bg-white rounded-3xl shadow-lg flex flex-wrap gap-2 justify-center items-center py-2">
+							<ul class="w-full gap-6 md:grid-cols-2 flex items-center justify-center flex-wrap">
+								<li>
+									<input type="radio" id="Paper or clipboard" name="wastetype" value="Paper or clipboard" class="hidden peer" required>
+									<label for="Paper or clipboard" class="inline-flex items-center justify-between bg-[#f7931a] border-[3px] border-white rounded-xl cursor-pointer peer-checked:border-blue-600">                           
+										<div class=" w-40 h-16 flex items-center justify-center rounded-xl shadow-sm gap-2 p-4">
+											<img src="./logo-images/Schedule-logos-1.svg" class=""/>
+											<h1 class="text-white leading-none">Paper or clipboard</h1>
+										</div>
+									</label>
+								</li>
+								<li>
+									<input type="radio" id="Bio waste" name="wastetype" value="Bio waste" class="hidden peer">
+									<label for="Bio waste" class="inline-flex items-center justify-between bg-[#34a853] border-[3px] border-white  rounded-xl cursor-pointer peer-checked:border-blue-600">
+										<div class=" w-40 h-16 flex items-center justify-center rounded-xl shadow-sm gap-2 p-4">
+											<img src="./logo-images/Schedule-logos-2.svg" class=""/>
+											<h1 class="text-white ">Bio-waste</h1>
+										</div>
+									</label>
+								</li>
+								<li>
+									<input type="radio" id="Plastic waste" name="wastetype" value="Plastic waste" class="hidden peer">
+									<label for="Plastic waste" class="inline-flex items-center justify-between bg-[#0096ff]  border-[3px] border-white  rounded-xl cursor-pointer peer-checked:border-blue-600">
+										<div class="w-40 h-16 flex items-center justify-center rounded-xl shadow-sm gap-2 p-4">
+											<img src="./logo-images/Schedule-logos-3.svg" class=""/>
+											<h1 class="text-white leading-none">Plastic waste</h1>
+										</div>
+									</label>
+								</li>
+								<li>
+									<input type="radio" id="Glass waste" name="wastetype" value="Glass waste" class="hidden peer">
+									<label for="Glass waste" class="inline-flex items-center justify-between bg-[#eb4335] border-[3px] border-white  rounded-xl cursor-pointer peer-checked:border-blue-600">
+										<div class=" w-40 h-16 flex items-center justify-center rounded-xl shadow-sm gap-2 p-4">
+											<img src="./logo-images/Schedule-logos-4.svg" class=""/>
+											<h1 class="text-white ">Glass waste</h1>
+										</div>
+									</label>
+								</li>
+								<li>
+									<input type="radio" id="e-waste" name="wastetype" value="e-waste" class="hidden peer">
+									<label for="e-waste" class="inline-flex items-center justify-between bg-[#bd00ff] border-[3px] border-white  rounded-xl cursor-pointer peer-checked:border-blue-600">
+										<div class=" w-40 h-16 flex items-center justify-center rounded-xl shadow-sm gap-2 p-4">
+											<img src="./logo-images/Schedule-logos-5.svg" class=""/>
+											<h1 class="text-white ">e-waste</h1>
+										</div>
+									</label>
+								</li>
+								<li>
+									<input type="radio" id="Others" name="wastetype" value="Others" class="hidden peer">
+									<label for="Others" class="inline-flex items-center justify-between bg-[#838383] border-[3px] border-white  rounded-xl cursor-pointer peer-checked:border-blue-600">
+										<div class=" w-40 h-16 flex items-center justify-center rounded-xl shadow-sm gap-2 p-4">
+											<img src="./logo-images/Schedule-logos-6.svg" class=""/>
+											<h1 class="text-white ">Others</h1>
+										</div>
+									</label>
+								</li>
+							</ul>
 						</div>
 					</div>
-				</div>
-				<div class="flex flex-col gap-4">
-					<h1 class="font-semibold text-xl ml-4">2.Select pickup date</h1>
-						<div class="flex items-center justify-center py-8 -mt-8 px-4">
+					<div class="flex flex-col gap-4 ">
+						<h1 class="font-semibold text-xl ml-4">2.Select pickup date</h1>
+						<div class="h-72 w-72 flex bg-white ">
 							<div class="">
-								<div class="p-4 bg-white rounded-3xl shadow-lg h-72 w-72">
-									<div class="px-2 flex items-center justify-between ">
-										<span  tabindex="0" class="focus:outline-none mt-0 text-base font-bold dark:text-gray-100 text-gray-800">October 2020</span>
-										<div class="flex items-center">
-											<button aria-label="calendar backward" class="focus:text-gray-400 hover:text-gray-400 text-gray-800 dark:text-gray-100">
-											<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-												<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-												<polyline points="15 6 9 12 15 18" />
-											</svg>
-										</button>
-										<button aria-label="calendar forward" class="focus:text-gray-400 hover:text-gray-400 ml-3 text-gray-800 dark:text-gray-100"> 
-											  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler  icon-tabler-chevron-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-												<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-												<polyline points="9 6 15 12 9 18" />
-											</svg>
-										</button>
-				
-										</div>
-									</div>
-									<div class="flex items-center justify-between pt-2 overflow-x-auto">
-										<table class="w-full">
-											<thead>
-												<tr>
-													<th>
-														<div class="w-full flex justify-center">
-															<p class="text-base font-medium text-center text-gray-800 dark:text-gray-100">Mo</p>
-														</div>
-													</th>
-													<th>
-														<div class="w-full flex justify-center">
-															<p class="text-base font-medium text-center text-gray-800 dark:text-gray-100">Tu</p>
-														</div>
-													</th>
-													<th>
-														<div class="w-full flex justify-center">
-															<p class="text-base font-medium text-center text-gray-800 dark:text-gray-100">We</p>
-														</div>
-													</th>
-													<th>
-														<div class="w-full flex justify-center">
-															<p class="text-base font-medium text-center text-gray-800 dark:text-gray-100">Th</p>
-														</div>
-													</th>
-													<th>
-														<div class="w-full flex justify-center">
-															<p class="text-base font-medium text-center text-gray-800 dark:text-gray-100">Fr</p>
-														</div>
-													</th>
-													<th>
-														<div class="w-full flex justify-center">
-															<p class="text-base font-medium text-center text-gray-800 dark:text-gray-100">Sa</p>
-														</div>
-													</th>
-													<th>
-														<div class="w-full flex justify-center">
-															<p class="text-base font-medium text-center text-gray-800 dark:text-gray-100">Su</p>
-														</div>
-													</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td class="pt-2">
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center"></div>
-													</td>
-													<td class="pt-2">
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center"></div>
-													</td>
-													<td>
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center"></div>
-													</td>
-													<td class="pt-2">
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center">
-															<p class="text-base text-gray-500 dark:text-gray-100 font-medium">1</p>
-														</div>
-													</td>
-													<td class="pt-2">
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center">
-															<p class="text-base text-gray-500 dark:text-gray-100 font-medium">2</p>
-														</div>
-													</td>
-													<td class="pt-2">
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center">
-															<p class="text-base text-gray-500 dark:text-gray-100">3</p>
-														</div>
-													</td>
-													<td class="pt-2">
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center">
-															<p class="text-base text-gray-500 dark:text-gray-100">4</p>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center">
-															<p class="text-base text-gray-500 dark:text-gray-100 font-medium">5</p>
-														</div>
-													</td>
-													<td>
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center">
-															<p class="text-base text-gray-500 dark:text-gray-100 font-medium">6</p>
-														</div>
-													</td>
-													<td>
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center">
-															<p class="text-base text-gray-500 dark:text-gray-100 font-medium">7</p>
-														</div>
-													</td>
-													<td>
-														<div class="w-full h-full">
-															<div class="flex items-center justify-center w-full rounded-full cursor-pointer">
-																<a  role="link" tabindex="0" class="focus:outline-none  focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:bg-indigo-500 hover:bg-indigo-500 text-base w-8 h-8 flex items-center justify-center font-medium text-white bg-indigo-700 rounded-full">8</a>
+								<div x-data="app()" x-init="[initDate(), getNoOfDays()]" x-cloak>
+									<div class="container">
+										<div class="mb-4 w-72">
+											<div class="relative">
+												<input type="hidden" name="date" x-ref="date">
+												<input 
+													type="text"
+													readonly
+													x-model="datepickerValue"
+													@click="showDatepicker = !showDatepicker"
+													@keydown.escape="showDatepicker = false"
+													class="w-full pl-3 py-2.5 leading-none rounded-xl shadow-lg focus:outline-none focus:shadow-outline text-gray-600 font-medium"
+													placeholder="Select date">
+						  
+													<div class="absolute right-3 top-2.5 px-3 py-2">
+														<svg class="h-6 w-6 text-gray-400"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+															<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+														</svg>
+													</div>
+						  
+													<div x-text="no_of_days.length"></div>
+													<div x-text="32 - new Date(year, month, 32).getDate()"></div>
+													<div x-text="new Date(year, month).getDay()"></div>
+						  
+													<div 
+														class="bg-white mt-12 rounded-xl shadow-lg p-2 absolute top-0 left-0 w-72" 
+														x-show.transition="showDatepicker"
+														@click.away="showDatepicker = true">
+						  
+														<div class="flex justify-between items-center mb-2">
+															<div>
+																<span x-text="MONTH_NAMES[month]" class="text-lg font-bold text-gray-800"></span>
+																<span x-text="year" class="ml-1 text-lg text-gray-600 font-normal"></span>
+															</div>
+															<div>
+																<button 
+																	type="button"
+																	class="transition ease-in-out duration-100 inline-flex cursor-pointer hover:bg-gray-200 p-1 rounded-full absolute top-2 right-12" 
+																	:class="{'cursor-not-allowed opacity-25': month == 0 }"
+																	:disabled="month == 0 ? true : false"
+																	@click="month--; getNoOfDays()">
+																	<svg class="h-6 w-6 text-gray-500 inline-flex"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+																		<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+																	</svg>  
+																</button>
+																<button 
+																	type="button"
+																	class="transition ease-in-out duration-100 inline-flex cursor-pointer hover:bg-gray-200 p-1 rounded-full absolute top-2 right-8" 
+																	:class="{'cursor-not-allowed opacity-25': month == 11 }"
+																	:disabled="month == 11 ? true : false"
+																	@click="month++; getNoOfDays()">
+																	<svg class="h-6 w-6 text-gray-500 inline-flex"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+																		<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+																	</svg>									  
+																</button>
 															</div>
 														</div>
-													</td>
-													<td>
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center">
-															<p class="text-base text-gray-500 dark:text-gray-100 font-medium">9</p>
+						  
+														<div class="flex flex-wrap mb-3 -mx-1">
+															<template x-for="(day, index) in DAYS" :key="index">	
+																<div style="width: 14.26%" class="px-1">
+																	<div
+																		x-text="day" 
+																		class="text-gray-800 font-medium text-center text-xs"></div>
+																</div>
+															</template>	
 														</div>
-													</td>
-													<td>
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center">
-															<p class="text-base text-gray-500 dark:text-gray-100">10</p>
+						  
+														<div class="flex flex-wrap -mx-1">
+															<template x-for="blankday in blankdays">
+																<div 
+																	style="width: 14.28%"
+																	class="text-center border p-1 border-transparent text-sm"	
+																></div>
+															</template>	
+															<template x-for="(date, dateIndex) in no_of_days" :key="dateIndex">	
+																<div style="width: 14.28%" class="px-1 mb-1">
+																	<div
+																		@click="getDateValue(date)"
+																		x-text="date"
+																		class="cursor-pointer text-center text-sm rounded-full leading-loose transition ease-in-out duration-100"
+																		:class="{'bg-blue-500 text-white': isToday(date) == true, 'text-gray-700 hover:bg-blue-200': isToday(date) == false }"	
+																	></div>
+																</div>
+															</template>
 														</div>
-													</td>
-													<td>
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center">
-															<p class="text-base text-gray-500 dark:text-gray-100">11</p>
+													</div>
+						  
+											</div>	 
+										</div>
+						  
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="flex gap-7">
+				<ul class="w-full gap-6 md:grid-cols-2 flex items-center justify-center flex-wrap">
+					<li>
+						<input type="radio" id="home address" name="addresstype" value="home address" class="hidden peer" required>
+						<label for="home address" class="inline-flex items-center justify-between bg-white border-[3px] border-white rounded-3xl cursor-pointer peer-checked:border-blue-600">                           
+							<div class="h-52 w-72 bg-white rounded-3xl shadow-lg p-6 pr-4">
+								<h1 class="w-full font-medium text-[#FFCB0A] text-lg p-2" >Home Address</h1>
+								<p class="p-2">
+									Neelamkavil House,<br>
+									Near R C Church,<br>
+									Pavaratty P. O<br>
+									680507
+								</p>
+							</div>
+						</label>
+					</li>	
+
+					<li>
+						<input type="radio" id="work address" name="addresstype" value="work address" class="hidden peer" required>
+						<label for="work address" class="inline-flex items-center justify-between bg-white border-[3px] border-white rounded-3xl cursor-pointer peer-checked:border-blue-600">                           
+							<div class="h-52 w-72 bg-white rounded-3xl shadow-lg p-6 pr-4">
+								<h1 class="w-full font-medium text-[#FFCB0A] text-lg p-2" >Work Address</h1>
+								<p class="p-2">
+									Neelamkavil House,<br>
+									Near R C Church,<br>
+									Pavaratty P. O<br>
+									680507
+								</p>
+							</div>
+						</label>
+					</li>	
+					<div class="h-52 w-72 bg-white rounded-3xl shadow-lg flex flex-col gap-4 items-center justify-center">
+						<img src="./logo-images/plus-icon-yellow.svg">
+						<h1>Add another address</h1>
+					</div>
+				</div>
+				<a class="mt-4" href="#ScheduleSuccess">
+					<button class="px-8 py-4 bg-[#009743] text-white rounded-xl">Schedule Pickup</button>
+				</a>
+			</div>
+		</section>
+
+		<section id= 'Dropoff' class="flex flex-col w-[87%] fixed h-[90%] bg-gray-50 ml-[13%] mt-[5%] gap-4 overflow-x-auto" >
+			<div class="Page-Title flex">
+				<h1 class="text-4xl font-bold pl-24 -mt-[3.5%] fixed">Drop Off</h1>
+			</div>
+			<div class="flex gap-8 justify-center flex-wrap">
+				<div class="flex gap-8 ">
+					<div class="flex flex-col gap-6">
+						<h1 class="font-semibold text-xl">1.Select the type of waste</h1>
+						<div class="h-72 w-[590px] bg-white rounded-3xl shadow-lg flex flex-wrap gap-2 justify-center items-center py-2">
+							<ul class="w-full gap-6 md:grid-cols-2 flex items-center justify-center flex-wrap">
+								<li>
+									<input type="radio" id="Paper or clipboard" name="wastetype" value="Paper or clipboard" class="hidden peer" required>
+									<label for="Paper or clipboard" class="inline-flex items-center justify-between bg-[#f7931a] border-[3px] border-white rounded-xl cursor-pointer peer-checked:border-blue-600">                           
+										<div class=" w-40 h-16 flex items-center justify-center rounded-xl shadow-sm gap-2 p-4">
+											<img src="./logo-images/Schedule-logos-1.svg" class=""/>
+											<h1 class="text-white leading-none">Paper or clipboard</h1>
+										</div>
+									</label>
+								</li>
+								<li>
+									<input type="radio" id="Bio waste" name="wastetype" value="Bio waste" class="hidden peer">
+									<label for="Bio waste" class="inline-flex items-center justify-between bg-[#34a853] border-[3px] border-white  rounded-xl cursor-pointer peer-checked:border-blue-600">
+										<div class=" w-40 h-16 flex items-center justify-center rounded-xl shadow-sm gap-2 p-4">
+											<img src="./logo-images/Schedule-logos-2.svg" class=""/>
+											<h1 class="text-white ">Bio-waste</h1>
+										</div>
+									</label>
+								</li>
+								<li>
+									<input type="radio" id="Plastic waste" name="wastetype" value="Plastic waste" class="hidden peer">
+									<label for="Plastic waste" class="inline-flex items-center justify-between bg-[#0096ff]  border-[3px] border-white  rounded-xl cursor-pointer peer-checked:border-blue-600">
+										<div class="w-40 h-16 flex items-center justify-center rounded-xl shadow-sm gap-2 p-4">
+											<img src="./logo-images/Schedule-logos-3.svg" class=""/>
+											<h1 class="text-white leading-none">Plastic waste</h1>
+										</div>
+									</label>
+								</li>
+								<li>
+									<input type="radio" id="Glass waste" name="wastetype" value="Glass waste" class="hidden peer">
+									<label for="Glass waste" class="inline-flex items-center justify-between bg-[#eb4335] border-[3px] border-white  rounded-xl cursor-pointer peer-checked:border-blue-600">
+										<div class=" w-40 h-16 flex items-center justify-center rounded-xl shadow-sm gap-2 p-4">
+											<img src="./logo-images/Schedule-logos-4.svg" class=""/>
+											<h1 class="text-white ">Glass waste</h1>
+										</div>
+									</label>
+								</li>
+								<li>
+									<input type="radio" id="e-waste" name="wastetype" value="e-waste" class="hidden peer">
+									<label for="e-waste" class="inline-flex items-center justify-between bg-[#bd00ff] border-[3px] border-white  rounded-xl cursor-pointer peer-checked:border-blue-600">
+										<div class=" w-40 h-16 flex items-center justify-center rounded-xl shadow-sm gap-2 p-4">
+											<img src="./logo-images/Schedule-logos-5.svg" class=""/>
+											<h1 class="text-white ">e-waste</h1>
+										</div>
+									</label>
+								</li>
+								<li>
+									<input type="radio" id="Others" name="wastetype" value="Others" class="hidden peer">
+									<label for="Others" class="inline-flex items-center justify-between bg-[#838383] border-[3px] border-white  rounded-xl cursor-pointer peer-checked:border-blue-600">
+										<div class=" w-40 h-16 flex items-center justify-center rounded-xl shadow-sm gap-2 p-4">
+											<img src="./logo-images/Schedule-logos-6.svg" class=""/>
+											<h1 class="text-white ">Others</h1>
+										</div>
+									</label>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="flex flex-col gap-4 ">
+						<h1 class="font-semibold text-xl ml-4">2.Select pickup date</h1>
+						<div class="h-72 w-72 flex bg-white ">
+							<div class="">
+								<div x-data="app()" x-init="[initDate(), getNoOfDays()]" x-cloak>
+									<div class="container">
+										<div class="mb-4 w-72">
+											<div class="relative">
+												<input type="hidden" name="date" x-ref="date">
+												<input 
+													type="text"
+													readonly
+													x-model="datepickerValue"
+													@click="showDatepicker = !showDatepicker"
+													@keydown.escape="showDatepicker = false"
+													class="w-full pl-3 py-2.5 leading-none rounded-xl shadow-lg focus:outline-none focus:shadow-outline text-gray-600 font-medium"
+													placeholder="Select date">
+						  
+													<div class="absolute top-0 right-0 px-3 py-2">
+														<svg class="h-6 w-6 text-gray-400"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+															<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+														</svg>
+													</div>
+						  
+						  
+													<!-- <div x-text="no_of_days.length"></div>
+													<div x-text="32 - new Date(year, month, 32).getDate()"></div>
+													<div x-text="new Date(year, month).getDay()"></div> -->
+						  
+													<div 
+														class="bg-white mt-12 rounded-3xl shadow-lg p-2 absolute top-0 left-0 w-72" 
+														x-show.transition="showDatepicker"
+														@click.away="showDatepicker = true">
+						  
+														<div class="flex justify-between items-center mb-2">
+															<div>
+																<span x-text="MONTH_NAMES[month]" class="text-lg font-bold text-gray-800"></span>
+																<span x-text="year" class="ml-1 text-lg text-gray-600 font-normal"></span>
+															</div>
+															<div>
+																<button 
+																	type="button"
+																	class="transition ease-in-out duration-100 inline-flex cursor-pointer hover:bg-gray-200 p-1 rounded-full absolute top-2 right-12" 
+																	:class="{'cursor-not-allowed opacity-25': month == 0 }"
+																	:disabled="month == 0 ? true : false"
+																	@click="month--; getNoOfDays()">
+																	<svg class="h-6 w-6 text-gray-500 inline-flex"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+																		<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+																	</svg>  
+																</button>
+																<button 
+																	type="button"
+																	class="transition ease-in-out duration-100 inline-flex cursor-pointer hover:bg-gray-200 p-1 rounded-full absolute top-2 right-8" 
+																	:class="{'cursor-not-allowed opacity-25': month == 11 }"
+																	:disabled="month == 11 ? true : false"
+																	@click="month++; getNoOfDays()">
+																	<svg class="h-6 w-6 text-gray-500 inline-flex"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+																		<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+																	</svg>									  
+																</button>
+															</div>
 														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center">
-															<p class="text-base text-gray-500 dark:text-gray-100 font-medium">12</p>
+						  
+														<div class="flex flex-wrap mb-3 -mx-1">
+															<template x-for="(day, index) in DAYS" :key="index">	
+																<div style="width: 14.26%" class="px-1">
+																	<div
+																		x-text="day" 
+																		class="text-gray-800 font-medium text-center text-xs"></div>
+																</div>
+															</template>
 														</div>
-													</td>
-													<td>
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center">
-															<p class="text-base text-gray-500 dark:text-gray-100 font-medium">13</p>
+						  
+														<div class="flex flex-wrap -mx-1">
+															<template x-for="blankday in blankdays">
+																<div 
+																	style="width: 14.28%"
+																	class="text-center border p-1 border-transparent text-sm"	
+																></div>
+															</template>	
+															<template x-for="(date, dateIndex) in no_of_days" :key="dateIndex">	
+																<div style="width: 14.28%" class="px-1 mb-1">
+																	<div
+																		@click="getDateValue(date)"
+																		x-text="date"
+																		class="cursor-pointer text-center text-sm rounded-full leading-loose transition ease-in-out duration-100"
+																		:class="{'bg-blue-500 text-white': isToday(date) == true, 'text-gray-700 hover:bg-blue-200': isToday(date) == false }"	
+																	></div>
+																</div>
+															</template>
 														</div>
-													</td>
-													<td>
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center">
-															<p class="text-base text-gray-500 dark:text-gray-100 font-medium">14</p>
-														</div>
-													</td>
-													<td>
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center">
-															<p class="text-base text-gray-500 dark:text-gray-100 font-medium">15</p>
-														</div>
-													</td>
-													<td>
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center">
-															<p class="text-base text-gray-500 dark:text-gray-100 font-medium">16</p>
-														</div>
-													</td>
-													<td>
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center">
-															<p class="text-base text-gray-500 dark:text-gray-100">17</p>
-														</div>
-													</td>
-													<td>
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center">
-															<p class="text-base text-gray-500 dark:text-gray-100">18</p>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center">
-															<p class="text-base text-gray-500 dark:text-gray-100 font-medium">19</p>
-														</div>
-													</td>
-													<td>
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center">
-															<p class="text-base text-gray-500 dark:text-gray-100 font-medium">20</p>
-														</div>
-													</td>
-													<td>
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center">
-															<p class="text-base text-gray-500 dark:text-gray-100 font-medium">21</p>
-														</div>
-													</td>
-													<td>
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center">
-															<p class="text-base text-gray-500 dark:text-gray-100 font-medium">22</p>
-														</div>
-													</td>
-													<td>
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center">
-															<p class="text-base text-gray-500 dark:text-gray-100 font-medium">23</p>
-														</div>
-													</td>
-													<td>
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center">
-															<p class="text-base text-gray-500 dark:text-gray-100">24</p>
-														</div>
-													</td>
-													<td>
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center">
-															<p class="text-base text-gray-500 dark:text-gray-100">25</p>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center">
-															<p class="text-base text-gray-500 dark:text-gray-100 font-medium">26</p>
-														</div>
-													</td>
-													<td>
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center">
-															<p class="text-base text-gray-500 dark:text-gray-100 font-medium">27</p>
-														</div>
-													</td>
-													<td>
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center">
-															<p class="text-base text-gray-500 dark:text-gray-100 font-medium">28</p>
-														</div>
-													</td>
-													<td>
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center">
-															<p class="text-base text-gray-500 dark:text-gray-100 font-medium">29</p>
-														</div>
-													</td>
-													<td>
-														<div class="px-2 py-2 cursor-pointer flex w-full justify-center">
-															<p class="text-base text-gray-500 dark:text-gray-100 font-medium">30</p>
-														</div>
-													</td>
-												</tr>
-											</tbody>
-										</table>
+													</div>
+						  
+											</div>	 
+										</div>
+						  
 									</div>
 								</div>
 							</div>
 						</div>
-				</div>
-			</div>
-			<div class="flex gap-7">
-				<div class="h-52 w-72 bg-white rounded-3xl shadow-lg p-6 pr-4">
-					<h1 class="w-full font-medium text-[#FFCB0A] text-lg p-2" >Home Address</h1>
-					<p class="p-2">
-						Neelamkavil House,<br>
-						Near R C Church,<br>
-						Pavaratty P. O<br>
-						680507
-					</p>
-				</div>
-				<div class="h-52 w-72 bg-white rounded-3xl shadow-lg p-6 pr-4">
-					<h1 class="w-full font-medium text-[#FFCB0A] text-lg p-2" >Work Address</h1>
-					<p class="p-2">
-						Neelamkavil House,<br>
-						Near R C Church,<br>
-						Pavaratty P. O<br>
-						680507
-					</p>
-				</div>
-				<div class="h-52 w-72 bg-white rounded-3xl shadow-lg flex flex-col gap-4 items-center justify-center">
-					<img src="./logo-images/plus-icon-yellow.svg">
-					<h1>Add another address</h1>
-				</div>
-			</div>
-		</section>
-
-
-		<section id= 'Dropoff' class="flex flex-col w-[85%] h-full absolute ml-[15%] bg-gray-50" >
-			<div class="header-section flex mb-12 flex-wrap mt-4 items-center">
-				<div class="Freeaway">
-					<h1 class="text-4xl font-bold mt-5 ">Drop off</h1>
-				</div>
-				<div class="  flex justify-center items-center mr-6 h-8 my-2 ml-40 mt-6">
-					<input type="search" class="bg-purple-white relative w-96 shadow p-3 rounded-lg" placeholder="Search">
-					<div class="relative mr-4 right-14 text-black">
-						<img src="./logo-images/search-icon.png">
-					</div>
-					<div class="">
-						<a href="" ><img class="w-12 h-12"  src="./logo-images/location-icon.svg"></a>
-					</div>
-				</div>
-				<a href="#Profile">
-					<div class="flex gap-3 mt-4 ml-6" >
-						<img class="rounded-[50%] h-12 w-12 " src="./logo-images/ajay_profile.jpg">
-						<div class="flex flex-col ">
-							<h1 class="font-medium">Ajay Vishnu</h1>
-							<p class="text-sm">@ajayvishnue</p>
-						</div>
-					</div>
-				</a>
-			</div>
-			<div class="flex gap-4">
-				<div class="flex flex-col gap-4">
-					<h1 class="font-semibold text-xl">1.Select the type of waste</h1>
-					<div class="h-72 w-[600px] bg-white rounded-3xl shadow-lg flex flex-wrap gap-6 justify-center items-center py-6">
-						<div class="bg-orange-500 w-40 h-16 flex items-center justify-center rounded-xl shadow-sm gap-2 p-4">
-							<img src="./logo-images/Schedule-logos-1.svg" class=""/>
-							<h1 class="text-white leading-none">Paper or clipboard</h1>
-						</div>
-						<div class="bg-green-700 w-40 h-16 flex items-center justify-center rounded-xl shadow-sm gap-2 p-4">
-							<img src="./logo-images/Schedule-logos-2.svg" class=""/>
-							<h1 class="text-white ">Bio-waste</h1>
-						</div>
-						<div class="bg-blue-500 w-40 h-16 flex items-center justify-center rounded-xl shadow-sm gap-2 p-4">
-							<img src="./logo-images/Schedule-logos-3.svg" class=""/>
-							<h1 class="text-white leading-none">Plastic waste</h1>
-						</div>
-						<div class="bg-red-600 w-40 h-16 flex items-center justify-center rounded-xl shadow-sm gap-2 p-4">
-							<img src="./logo-images/Schedule-logos-4.svg" class=""/>
-							<h1 class="text-white ">Glass waste</h1>
-						</div>
-						<div class="bg-purple-500 w-40 h-16 flex items-center justify-center rounded-xl shadow-sm gap-2 p-4">
-							<img src="./logo-images/Schedule-logos-5.svg" class=""/>
-							<h1 class="text-white ">e-waste</h1>
-						</div>
-						<div class="bg-gray-500 w-40 h-16 flex items-center justify-center rounded-xl shadow-sm gap-2 p-4">
-							<img src="./logo-images/Schedule-logos-6.svg" class=""/>
-							<h1 class="text-white ">Others</h1>
-						</div>
-					</div>
-				</div>
-				<div class="flex flex-col gap-4 ">
-					<h1 class="font-semibold text-xl ml-4">2.Select pickup date</h1>
-					<div class="flex items-center justify-center py-8 px-4 bg-white rounded-3xl shadow-lg w-72 h-72">
-						<table class="py-4 text-2xl">
-							<tr CLASS="gap-4 border-b-2 border-gray-400">
-								<td class="px-4">06</td>
-								<td class="px-4">:</td>
-								<td class="px-4">23</td>
-								<td class="px-4">PM</td>
-							</tr>
-							<tr class="text-bold text-[#009743] gap-4 border-b-2 border-gray-400">
-								<td class="px-4">06 </td>
-								<td class="px-4">:</td>
-								<td class="px-4">24</td>
-								<td class="px-4">PM</td>
-							</tr>								
-							<tr>
-								<td  class="px-4">06</td >
-								<td  class="px-4">:</td>
-								<td class="px-4">25</td>
-								<td class="px-4">PM</td>
-							</tr>
-						</table>
 					</div>
 				</div>
 			</div>
-			<h1 class="font-semibold text-xl ml-4">4.Drop Off Point</h1>
-			<div class="flex justify-center">
-				<div class="mb-3 w-96">
+			<div class="flex justify-center flex-col ml-52 gap-3 mt-4">
+				<h1 class="font-semibold text-xl ">3.Drop Off Point</h1>
+				<div class="mb-3 w-[550px]">
 				  <select class="form-select appearance-none block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-[#009743] focus:outline-none" aria-label="Default select example">
 					  <option selected>Select the nearest Dropoff point</option>
 					  <option value="1">One</option>
@@ -1345,9 +1186,199 @@
 					  <option value="3">Three</option>
 				  </select>
 				</div>
-			  </div>
+			</div>
+			<a class="mt-4 ml-52" href="#DropoffSuccess">
+				<button class="px-6 py-3 bg-[#009743] text-white rounded-lg">Schedule DropOff</button>
+			</a>
+		</section>
+
+		<section id= 'Report' class="flex flex-col w-[87%] fixed h-[90%] bg-gray-50 ml-[13%] mt-[5%] gap-4 overflow-x-auto" >
+			<div class="Page-Title flex">
+				<h1 class="text-4xl font-bold pl-24 -mt-[3.5%] fixed">Report</h1>
+			</div>
+			<div class="flex flex-col items-center justify-center gap-4 ">
+				<div class="flex flex-col items-center justify-center bg-white rounded-3xl shadow-lg w-[900px] h-[450px] px-8 py-4 gap-2">
+					<h1 class="text-[#009743] text-xl font-semibold">Upload your images</h1>
+					<p class="text-gray-500 text-sm">Please upload a clear picture of the dump.</p>
+					<p class="text-gray-500 text-sm">(Only PNG, JPG images are supported)</p>
+					<a href="">
+						<img class="mt-4" src="./logo-images/Report-upload-image.svg"/>	
+					</a>
+				</div>
+				<div class="flex flex-col justify-center items-center bg-white w-[900px] h-36 gap-4 rounded-3xl shadow-lg py-4">
+					<h1 class="text-black text-xl font-semibold">Enter the location of the dump</h1>
+					<input class="w-[825px] h-12 bg-[#ececec] rounded-xl" type="text" >
+				</div>
+				<a class="" href="#ReportdumpSuccess">
+					<button class="px-6 py-3 bg-[#009743] text-white rounded-lg">REPORT</button>
+				</a>
+			</div>
+		</section>
+
+		<section id= 'Track' class=" flex flex-col w-[87%] fixed h-[90%] bg-gray-50 ml-[13%] mt-[5%] gap-4 overflow-x-auto" >
+			<div class="Page-Title flex">
+				<h1 class="text-4xl font-bold pl-24 -mt-[3.5%] fixed">Track</h1>
+			</div>
+			<div class="flex flex-col justify-center items-center mt-6">
+				<img class="h-[400px]" src="./logo-images/Map-img.svg"/>
+				<table class="w-[800px] table-auto mx-6 mt-6">
+					<tbody class="text-gray-600 text-lg font-lg ">
+						<tr class="border-b border-gray-200">
+							<td class="py-2 pl-6 text-black">Waste picked up</td>
+							<td class="py-2 pr-6 w-[200px]">Today, 11:00 AM</td> 
+						</tr>
+						<tr class="border-b border-gray-200">
+							<td class="py-2 pl-6 text-black">Reached collection point</td>
+							<td class="py-2 pr-6 w-[200px]">Today, 04:03 PM</td> 
+						</tr>
+						<tr class="border-b border-gray-200">
+							<td class="py-2 pl-6 text-black">Sent to Infinite waste LLC</td>
+							<td class="py-2 pr-6 w-[200px]">Today, 05:59 PM</td> 
+						</tr>
+						<tr class="border-b border-gray-200">
+							<td class="py-2 pl-6 text-black">On the way</td>
+							<td class="py-2 pr-6 w-[200px]">Just now</td> 
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</section>
+
+		<section id= 'Order_Bin' class=" flex flex-col w-[87%] fixed h-[90%] bg-gray-50 ml-[13%] mt-[5%] gap-12 overflow-x-auto pt-8 items-center" >
+			<h1 class="text-[#009743] text-xl font-semibold text-center">Purchase a WRAP bin</h1>
+			<div class="flex gap-8 flex-wrap">
+				<div class="h-[450px] w-80 rounded-2xl shadow-xl ">
+					<img class="ml-6 mt-6" src="./logo-images/Graph-icon-dashboard.svg"/>
+					<div class="flex items-center justify-center flex-col gap-4">
+						<img  class="h-28 w-28" src="./logo-images/Trash-green.svg"/>
+						<h1 class="text-black text-xl font-semibold">Bio-waste Bin</h1>
+						<p class="px-14 text-gray-500 text-sm text-center">The Green-colored dustbins are meant for wet and biodegradable wastes.</p>
+						<div class="custom-number-input h-10 w-32">
+							<div class="flex flex-row h-10 w-full rounded-lg relative bg-transparent mt-1">
+								<button data-action="decrement" class=" bg-gray-100 hover:text-gray-700 hover:bg-gray-400 h-full w-20 rounded-l cursor-pointer outline-none">
+									<span class="m-auto text-2xl font-thin">−</span>
+								</button>
+								<input type="number" class=" focus:outline-none text-center w-full bg-gray-100 font-semibold text-md hover:text-black focus:text-black flex items-center text-gray-700  outline-none" name="custom-input-number" value="0"></input>
+								<button data-action="increment" class="bg-gray-100 hover:text-gray-700 hover:bg-gray-400 h-full w-20 rounded-r cursor-pointer">
+									<span class="m-auto text-2xl font-thin">+</span>
+								</button>
+							</div>
+						  </div>
+						<h1 class="text-[#009743] text-3xl font-semibold text-center">₹999.00</h1>
+					</div>
+				</div>
+				<div class="h-[450px] w-80 rounded-2xl shadow-xl ">
+					<img class="ml-6 mt-6" src="./logo-images/Graph-icon-dashboard.svg"/>
+					<div class="flex items-center justify-center flex-col gap-4">
+						<img class="h-28 w-28" src="./logo-images/Trash-blue.svg"/>
+						<h1 class="text-black text-xl font-semibold">Plastic Bin</h1>
+						<p class="px-14 text-gray-500 text-sm text-center">Blue dustbins are meant for disposal of plastic & non-biodegradable wastes.</p>
+						<div class="custom-number-input h-10 w-32">
+							<div class="flex flex-row h-10 w-full rounded-lg relative bg-transparent mt-1">
+								<button data-action="decrement" class=" bg-gray-100 hover:text-gray-700 hover:bg-gray-400 h-full w-20 rounded-l cursor-pointer outline-none">
+									<span class="m-auto text-2xl font-thin">−</span>
+								</button>
+								<input type="number" class=" focus:outline-none text-center w-full bg-gray-100 font-semibold text-md hover:text-black focus:text-black flex items-center text-gray-700  outline-none" name="custom-input-number" value="0"></input>
+								<button data-action="increment" class="bg-gray-100 hover:text-gray-700 hover:bg-gray-400 h-full w-20 rounded-r cursor-pointer">
+									<span class="m-auto text-2xl font-thin">+</span>
+								</button>
+							</div>
+						  </div>
+						<h1 class="text-[#009743] text-3xl font-semibold text-center">₹999.00</h1>
+					</div>
+				</div>
+				<div class="h-[450px] w-80 rounded-2xl shadow-xl ">
+					<img class="ml-6 mt-6" src="./logo-images/Graph-icon-dashboard.svg"/>
+					<div class="flex items-center justify-center flex-col gap-4">
+						<img class="h-28 w-28" src="./logo-images/Trash-orange.svg"/>
+						<h1 class="text-black text-xl font-semibold">Paper/Glass Bin</h1>
+						<p class="px-14 text-gray-500 text-sm text-center">Yellow dustbins are meant for papers and glass wastes around us.</p>
+						<div class="custom-number-input h-10 w-32">
+							<div class="flex flex-row h-10 w-full rounded-lg relative bg-transparent mt-1">
+								<button data-action="decrement" class=" bg-gray-100 hover:text-gray-700 hover:bg-gray-400 h-full w-20 rounded-l cursor-pointer outline-none">
+									<span class="m-auto text-2xl font-thin">−</span>
+								</button>
+								<input type="number" class=" focus:outline-none text-center w-full bg-gray-100 font-semibold text-md hover:text-black focus:text-black flex items-center text-gray-700  outline-none" name="custom-input-number" value="0"></input>
+								<button data-action="increment" class="bg-gray-100 hover:text-gray-700 hover:bg-gray-400 h-full w-20 rounded-r cursor-pointer">
+									<span class="m-auto text-2xl font-thin">+</span>
+								</button>
+							</div>
+						</div>
+						<h1 class="text-[#009743] text-3xl font-semibold text-center">₹999.00</h1>
+					</div>
+				</div>
+			</div>
+			<div class="flex justify-center items-center">	
+				<a href="#Dashboard">
+					<button class="w-48 h-12 rounded-lg border border-[#009743] text-[#009743] mr-4">Go Back</button>
+				</a>
+				<a href="#OrderbinSuccess">
+					<button class="w-48 h-12 rounded-lg bg-[#009743] text-white">Place Order</button>
+				</a>
+			</div>
 
 		</section>
+
+		<section id= 'ScheduleSuccess' class="flex flex-col w-[87%] fixed h-[90%] bg-gray-50 ml-[13%] mt-[5%] gap-4 overflow-x-auto justify-center" >
+			<div class="flex justify-center items-center mt-4">
+				<img class="w-[550px]" src="logo-images/Schedule-Success.svg"/>
+			</div>
+			<div>
+				<h1 class="text-center text-4xl font-semibold p-2 leading-none">Pickup Scheduled Successfully</h1>
+				<h1 class="text-center text-lg font-lg p-2 leading-none">An associate will get in touch with you soon.</h1>
+			</div>
+			<div class="flex justify-center">
+				<a href="#Dashboard">
+					<button class="w-48 h-12 rounded-lg bg-[#009743] text-white">Go back</button>
+				</a>
+			</div>
+		</section>
+
+		<section id= 'DropoffSuccess' class="flex flex-col w-[87%] fixed h-[90%] bg-gray-50 ml-[13%] mt-[5%] gap-4 overflow-x-auto justify-center" >
+			<div class="flex justify-center items-center mt-0">	
+				<img class="h-[300px]" src="logo-images/Drop-off-success.svg"/>
+			</div>
+			<div>
+				<h1 class="text-center text-4xl font-semibold p-2 leading-none">Drop Off Scheduled Successfully</h1>
+				<h1 class="text-center text-lg font-lg p-2 leading-none">You can drop off at your nearest collection center during working hours.</h1>
+			</div>
+			<div class="flex justify-center">
+				<a href="#Dashboard">
+					<button class="w-48 h-12 rounded-lg bg-[#009743] text-white">Go back</button>
+				</a>
+			</div>
+		</section>
+
+		<section id= 'ReportdumpSuccess' class="flex flex-col w-[87%] fixed h-[90%] bg-gray-50 ml-[13%] mt-[5%] gap-4 overflow-x-auto justify-center" >
+			<div class="flex justify-center items-center mt-0">	
+				<img class="w-[450px]" src="logo-images/ReportDump-Success.svg"/>
+			</div>
+			<div>
+				<h1 class="text-center text-4xl font-semibold p-2 leading-none">Dump reported Successfully</h1>
+				<h1 class="text-center text-lg font-lg p-2 leading-none">Nearest authorities will be informed and necessary actions wil be taken.</h1>
+			</div>
+			<div class="flex justify-center">
+				<a href="#Dashboard">
+					<button class="w-48 h-12 rounded-lg bg-[#009743] text-white">Go back</button>
+				</a>
+			</div>
+		</section>
+
+		<section id= 'OrderbinSuccess' class="flex flex-col w-[87%] fixed h-[90%] bg-gray-50 ml-[13%] mt-[5%] gap-4 overflow-x-auto justify-center" >
+			<div class="flex justify-center items-center mt-0">	
+				<img class="w-[450px]" src="logo-images/OrderBin-Success.svg"/>
+			</div>
+			<div>
+				<h1 class="text-center text-4xl font-semibold p-2 leading-none">Order Placed Successfully</h1>
+				<h1 class="text-center text-lg font-lg p-2 leading-none">Your request is processed. WRAP bins will be delivered to you soon.</h1>
+			</div>
+			<div class="flex justify-center">
+				<a href="#Dashboard">
+					<button class="w-48 h-12 rounded-lg bg-[#009743] text-white">Go back</button>
+				</a>
+			</div>
+		</section>
+
 	</div>
 </body>
 </html>
